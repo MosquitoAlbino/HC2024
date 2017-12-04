@@ -3,6 +3,7 @@
 	<head>
 		<title>Historia clinica</title>
 		<link rel="stylesheet" type="text/css" href="./gridforms.css">
+		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 		<style type="text/css">
 			body {
@@ -238,34 +239,10 @@
 
 			<fieldset>
 				<legend>Impresión diagnóstica:</legend>
-				<div data-row-span="3">
-					<div data-field-span="2">
-						<label>1</label>
-						<input type="text">
-					</div>
-					<div data-field-span="1">
-						<label>Código:</label>
-						<input type="text">
-					</div>
-				</div>
-				<div data-row-span="3">
-					<div data-field-span="2">
-						<label>2</label>
-						<input type="text">
-					</div>
-					<div data-field-span="1">
-						<label>Código:</label>
-						<input type="text">
-					</div>
-				</div>
-				<div data-row-span="3">
-					<div data-field-span="2">
-						<label>3</label>
-						<input type="text">
-					</div>
-					<div data-field-span="1">
-						<label>Código:</label>
-						<input type="text">
+				<div data-row-span="1">
+					<div data-field-span="1" rel="js-diagnostic-impression">
+						<label>Buscar</label>
+						<input type="text" rel="js-diagnostic-impression-input">
 					</div>
 				</div>
 			</fieldset>
@@ -333,10 +310,46 @@
 			</fieldset>
 
 			<br><br>
-
-			<!-- <input type="submit" value="enviar formulario" /> -->
 		</form>
 	</body>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
 	<script type="text/javascript" src="./gridforms.js"></script>
+	<script>
+		$.getJSON('/cie10-obj.json', function(data) {
+			window.cie10DB = data
+		})
+	</script>
+	<script>
+		((function CIE10() {
+			function diagnosticImpressionTemplate({ index, id, name }) {
+				return `
+					<div data-row-span="3">
+						<div data-field-span="2">
+							<label>${index}</label>
+							<input type="text" value="${id}">
+						</div>
+						<div data-field-span="1">
+							<label>Código:</label>
+							<input type="text" value="${name}">
+						</div>
+					</div>
+				`
+			}
+			const $diagnosticImpression = $('[rel=js-diagnostic-impression]')
+			const $diagnosticImpressionInput = $diagnosticImpression.find('[rel=js-diagnostic-impression-input]')
+
+			$diagnosticImpressionInput.on('input', function(event) {
+				const value = event.target.value
+				if (value.length < 3) return
+				const cie10Options = _.filter(window.cie10DB, function(cie10Value, cie10Key) {
+					const cie10keyContainValue = cie10Key.indexOf(value) > -1
+					const cie10ValueContainValue = cie10Value.indexOf(value) > -1
+
+					return cie10keyContainValue || cie10ValueContainValue
+				})
+				cie10Options.forEach(i => console.log(i))
+			})
+		})())
+	</script>
 </html>
