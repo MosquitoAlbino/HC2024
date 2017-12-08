@@ -1,0 +1,43 @@
+body {
+  font-family: helvetica, sans-serif
+}
+
+.diagnostic-impression {
+  position: relative;
+}
+
+.diagnostic-impression__matches {
+  position: absolute;
+  background-color: white;
+  top: calc(100% + 7px);
+  left: 0;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cie10-match {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  text-align: left;
+}
+
+.cie10-match:last-child {
+  border-bottom: none;
+}
+
+.cie10-match__index {
+  width: 10%;
+}
+
+.cie10-match__code {
+  width: 30%;
+}
+
+.cie10-match__name {
+  width: 60%;
+}
