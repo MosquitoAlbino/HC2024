@@ -243,7 +243,8 @@
 					</div>
 				</div>
 			</fieldset>
-			
+			<div rel="diagnostic-impression-list"></div>
+
 			<br><br>
 
 			<fieldset>
@@ -309,9 +310,9 @@
 			<br><br>
 		</form>
 	</body>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
-	<script type="text/javascript" src="./gridforms.js"></script>
+	<!-- <script src="/gridforms.js"></script> -->
 	<script>
 		$.getJSON('/cie10-array.json', function(data) {
 			window.cie10DB = data
@@ -319,21 +320,27 @@
 	</script>
 	<script>
 		((function CIE10() {
-			let cie10FilteredOptions = []
-			const $diagnosticImpression = $('[rel=js-diagnostic-impression]')
-			const $input = $diagnosticImpression.find('[rel=js-diagnostic-impression-input]')
-			const $matches = $diagnosticImpression.find('[rel=js-diagnostic-impression-matches]')
+			let cie10FilteredOptions 				= []
+			const $diagnosticImpression 		= $('[rel=js-diagnostic-impression]')
+			const $input 										= $diagnosticImpression.find('[rel=js-diagnostic-impression-input]')
+			const $matches 									= $diagnosticImpression.find('[rel=js-diagnostic-impression-matches]')
+			const $diagnosticImpressionList = $('[rel=diagnostic-impression-list]')
 
 			function diagnosticImpressionTemplate({ index, code, name }) {
 				return `
-					<div data-row-span="3">
-						<div data-field-span="2">
-							<label>${index}</label>
+					<div data-row-span="10" class="diagnostic-impression-item">
+						<div data-field-span="6">
+							<label>Código:</label>
 							<input type="text" value="${code}">
 						</div>
-						<div data-field-span="1">
-							<label>Código:</label>
+						<div data-field-span="3">
+							<label>Nombre:</label>
 							<input type="text" value="${name}">
+						</div>
+						<div data-field-span="1" class="diagnostic-impression-item__close-container">
+							<button rel="delete-item" class="diagnostic-impression-item__close">
+								eliminar
+							</button>
 						</div>
 					</div>
 				`
@@ -387,8 +394,21 @@
 				const $elm = $(event.currentTarget) 
 				const selectedItemCode = $elm.data('code')
 				const selectedElm = getCIE10Item(selectedItemCode, cie10FilteredOptions)
-				// add selectedElm to the DOM
-				console.log('selectedElm', selectedElm)
+				const $diagnosticImpressionItem = $(
+					diagnosticImpressionTemplate({
+						...selectedElm,
+					})
+				)
+				$diagnosticImpressionList.append($diagnosticImpressionItem)
+				$input.val('')
+				$matches.empty()
+			})
+
+			$diagnosticImpressionList.on('click', '[rel=delete-item]', function(event) {
+				event.preventDefault()
+				const $deleteButton = $(event.currentTarget)
+				const $elmToDelete = $deleteButton.parents()[1]
+				$elmToDelete.remove()
 			})
 		})())
 	</script>
