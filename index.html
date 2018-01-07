@@ -309,106 +309,108 @@
 
 			<br><br>
 		</form>
+		<div id="app"></div>
 	</body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
-		<script>
-			$.getJSON('/cie10-array.json', function(data) {
-				window.cie10DB = data
-			})
-		</script>
-		<script>
-			((function CIE10() {
-				let cie10FilteredOptions 				= []
-				const $diagnosticImpression 		= $('[rel=js-diagnostic-impression]')
-				const $input 										= $diagnosticImpression.find('[rel=js-diagnostic-impression-input]')
-				const $matches 									= $diagnosticImpression.find('[rel=js-diagnostic-impression-matches]')
-				const $diagnosticImpressionList = $('[rel=diagnostic-impression-list]')
+	<script src="./app/index.js"></script>
+	<script>
+		$.getJSON('/cie10-array.json', function(data) {
+			window.cie10DB = data
+		})
+	</script>
+	<script>
+		((function CIE10() {
+			let cie10FilteredOptions 				= []
+			const $diagnosticImpression 		= $('[rel=js-diagnostic-impression]')
+			const $input 										= $diagnosticImpression.find('[rel=js-diagnostic-impression-input]')
+			const $matches 									= $diagnosticImpression.find('[rel=js-diagnostic-impression-matches]')
+			const $diagnosticImpressionList = $('[rel=diagnostic-impression-list]')
 
-				function diagnosticImpressionTemplate({ index, code, name }) {
-					return `
-						<div data-row-span="10" class="diagnostic-impression-item">
-							<div data-field-span="6">
-								<label>Código:</label>
-								<input type="text" value="${code}">
-							</div>
-							<div data-field-span="3">
-								<label>Nombre:</label>
-								<input type="text" value="${name}">
-							</div>
-							<div data-field-span="1" class="diagnostic-impression-item__close-container">
-								<button rel="delete-item" class="diagnostic-impression-item__close">
-									eliminar
-								</button>
-							</div>
+			function diagnosticImpressionTemplate({ index, code, name }) {
+				return `
+					<div data-row-span="10" class="diagnostic-impression-item">
+						<div data-field-span="6">
+							<label>Código:</label>
+							<input type="text" value="${code}">
 						</div>
-					`
-				}
-				function matchTemplate({ index, code, name }) {
-					return `
-						<button class="cie10-match" rel="cie10-match" data-code="${code}">
-							<p class="cie10-match__index">${index}</p>
-							<p class="cie10-match__code">${code}</p>
-							<p class="cie10-match__name">${name}</p>
-						</button>
-					`
-				}
-				function getCIE10Item(code, cie10Items) {
-					return cie10Items.find(CIE10Item => CIE10Item.code === code)
-				}
+						<div data-field-span="3">
+							<label>Nombre:</label>
+							<input type="text" value="${name}">
+						</div>
+						<div data-field-span="1" class="diagnostic-impression-item__close-container">
+							<button rel="delete-item" class="diagnostic-impression-item__close">
+								eliminar
+							</button>
+						</div>
+					</div>
+				`
+			}
+			function matchTemplate({ index, code, name }) {
+				return `
+					<button class="cie10-match" rel="cie10-match" data-code="${code}">
+						<p class="cie10-match__index">${index}</p>
+						<p class="cie10-match__code">${code}</p>
+						<p class="cie10-match__name">${name}</p>
+					</button>
+				`
+			}
+			function getCIE10Item(code, cie10Items) {
+				return cie10Items.find(CIE10Item => CIE10Item.code === code)
+			}
 
-				$input.on('input', function(event) {
-					$matches.empty()
+			$input.on('input', function(event) {
+				$matches.empty()
 
-					const value = event.target.value
-					const MIN_CHARACTERS = 3
-					const MAX_MATCHES = 8
+				const value = event.target.value
+				const MIN_CHARACTERS = 3
+				const MAX_MATCHES = 8
 
-					if (value.length < MIN_CHARACTERS) return
+				if (value.length < MIN_CHARACTERS) return
 
-					cie10FilteredOptions = _(window.cie10DB)
-						.filter(function(cie10Item) {
-							const cie10Key = cie10Item.c.toLowerCase()
-							const cie10Value = cie10Item.d.toLowerCase()
-							const cie10keyContainValue = cie10Key.indexOf(value) > -1
-							const cie10ValueContainValue = cie10Value.indexOf(value) > -1
+				cie10FilteredOptions = _(window.cie10DB)
+					.filter(function(cie10Item) {
+						const cie10Key = cie10Item.c.toLowerCase()
+						const cie10Value = cie10Item.d.toLowerCase()
+						const cie10keyContainValue = cie10Key.indexOf(value) > -1
+						const cie10ValueContainValue = cie10Value.indexOf(value) > -1
 
-							return cie10keyContainValue || cie10ValueContainValue
-						})
-						.map(cie10Item => ({ code: cie10Item.c, name: cie10Item.d }))
-						.take(MAX_MATCHES)
-						.value()
-
-					cie10FilteredOptions.map((cie10Option, index) => {
-						const templateWithData = matchTemplate({
-							index: index + 1, code: cie10Option.code, name: cie10Option.name
-						})
-						const $cie10Elm = $(templateWithData)
-						$matches.append($cie10Elm)
+						return cie10keyContainValue || cie10ValueContainValue
 					})
-				})
+					.map(cie10Item => ({ code: cie10Item.c, name: cie10Item.d }))
+					.take(MAX_MATCHES)
+					.value()
 
-				$matches.on('click', '[rel=cie10-match]', function(event) {
-					event.preventDefault()
-					const $elm = $(event.currentTarget) 
-					const selectedItemCode = $elm.data('code')
-					const selectedElm = getCIE10Item(selectedItemCode, cie10FilteredOptions)
-					const $diagnosticImpressionItem = $(
-						diagnosticImpressionTemplate({
-							...selectedElm,
-						})
-					)
-					$diagnosticImpressionList.append($diagnosticImpressionItem)
-					$input.val('')
-					$matches.empty()
+				cie10FilteredOptions.map((cie10Option, index) => {
+					const templateWithData = matchTemplate({
+						index: index + 1, code: cie10Option.code, name: cie10Option.name
+					})
+					const $cie10Elm = $(templateWithData)
+					$matches.append($cie10Elm)
 				})
+			})
 
-				$diagnosticImpressionList.on('click', '[rel=delete-item]', function(event) {
-					event.preventDefault()
-					const $deleteButton = $(event.currentTarget)
-					const $elmToDelete = $deleteButton.parents()[1]
-					$elmToDelete.remove()
-				})
-			})())
-		</script>
+			$matches.on('click', '[rel=cie10-match]', function(event) {
+				event.preventDefault()
+				const $elm = $(event.currentTarget) 
+				const selectedItemCode = $elm.data('code')
+				const selectedElm = getCIE10Item(selectedItemCode, cie10FilteredOptions)
+				const $diagnosticImpressionItem = $(
+					diagnosticImpressionTemplate({
+						...selectedElm,
+					})
+				)
+				$diagnosticImpressionList.append($diagnosticImpressionItem)
+				$input.val('')
+				$matches.empty()
+			})
+
+			$diagnosticImpressionList.on('click', '[rel=delete-item]', function(event) {
+				event.preventDefault()
+				const $deleteButton = $(event.currentTarget)
+				const $elmToDelete = $deleteButton.parents()[1]
+				$elmToDelete.remove()
+			})
+		})())
+	</script>
 </html>
