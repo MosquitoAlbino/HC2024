@@ -1,18 +1,12 @@
 import React    from 'react'
-import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
+import CIE10    from 'components/CIE10'
 
 const DiagnosticImpression = () => {
-  const row1 = [{
-    label: 'BUSCAR:', id: 0
-  }]
-
   return (
-    <div>
-      <Fieldset title="Impresión diagnóstica:">
-        <InputRow items={row1} />
-      </Fieldset>
-    </div>
+    <Fieldset title="Impresión diagnóstica:">
+      <CIE10 />
+    </Fieldset>
   )
 }
 
