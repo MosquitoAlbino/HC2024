@@ -1,34 +1,35 @@
 import React    from 'react'
+import uuid     from 'uuid/v4'
 import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
 
 const PhysicalExamination = () => {
   const row1 = [{
-    label: 'ESTADO DE CONCIENCIA:', id: 0
+    label: 'ESTADO DE CONCIENCIA:', id: uuid(),
   }]
   const row2 = [{
-    label: 'GRADO DE HIDRATACIÓN:', id: 0,
+    label: 'GRADO DE HIDRATACIÓN:', id: uuid(),
   }, {
-    label: 'FEBRIL:', id: 1,
+    label: 'FEBRIL:', id: uuid(),
   }]
   const row3 = [{
-    label: 'CARACTERISTICAS PREDOMINANTES EN EL PACIENTE:', id: 0,
+    label: 'CARACTERISTICAS PREDOMINANTES EN EL PACIENTE:', id: uuid(),
   }]
   const row4 = [{
-    label: 'T. ARTERIAL MMHG:', id: 0,
+    label: 'T. ARTERIAL MMHG:', id: uuid(),
   }, {
-    label: 'FC:', id: 1,
+    label: 'FC:', id: uuid(),
   }, {
-    label: 'FR:', id: 2,
+    label: 'FR:', id: uuid(),
   }, {
-    label: 'TEMPERATURA:', id: 3,
+    label: 'TEMPERATURA:', id: uuid(),
   }]
   const row5 = [{
-    label: 'PULSO:', id: 0,
+    label: 'PULSO:', id: uuid(),
   }, {
-    label: 'PESO:', id: 1,
+    label: 'PESO:', id: uuid(),
   }, {
-    label: 'TALLA:', id: 2,
+    label: 'TALLA:', id: uuid(),
   }]
 
   return (

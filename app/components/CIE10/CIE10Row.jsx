@@ -2,7 +2,6 @@ import React from 'react'
 import Input from 'components/Input'
 
 const CIE10Row = ({ item, handleDelete }) => {
-  console.log('item', item, 'defaultValue')
   return (
     <div className="diagnostic-impression-item">
       <div className="diagnostic-impression-item__code">
@@ -11,9 +10,9 @@ const CIE10Row = ({ item, handleDelete }) => {
       <div className="diagnostic-impression-item__name">
         <Input label="Nombre:" defaultValue={item.name} />
       </div>
-      <div class="diagnostic-impression-item__close-container">
+      <div className="diagnostic-impression-item__close-container">
         <button
-          class="diagnostic-impression-item__close"
+          className="diagnostic-impression-item__close"
           onClick={() => handleDelete(item)}
         >
           Eliminar

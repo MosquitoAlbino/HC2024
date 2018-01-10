@@ -1,12 +1,13 @@
 import React    from 'react'
+import uuid     from 'uuid/v4'
 import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
 
 const DiagnosticImpression = () => {
   const row1 = [{
-    label: 'A. FARMACOLÓGICO:', id: 0, type: 'textarea'
+    label: 'A. FARMACOLÓGICO:', id: uuid(), type: 'textarea'
   }, {
-    label: 'A. NO FARMACOLÓGICO:', id: 0, type: 'textarea'
+    label: 'A. NO FARMACOLÓGICO:', id: uuid(), type: 'textarea'
   }]
 
   return (

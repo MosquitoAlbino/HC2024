@@ -1,10 +1,11 @@
 import React    from 'react'
+import uuid     from 'uuid/v4'
 import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
 
 const AffectedSystemEvolution = () => {
   const row1 = [{
-    id: 0,
+    id: uuid(),
     type: 'textarea'
   }]
 

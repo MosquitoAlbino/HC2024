@@ -10,12 +10,12 @@ class Match extends Component {
     } = this.props
 
     return (
-      <button class="cie10-match" onClick={(e) => handleCIE10ItemClick({...item})}>
-        <p class="cie10-match__index">0</p>
-        <p class="cie10-match__code">
+      <button className="cie10-match" onClick={(e) => handleCIE10ItemClick({...item})}>
+        <p className="cie10-match__index">0</p>
+        <p className="cie10-match__code">
           {item.code}
         </p>
-        <p class="cie10-match__name">
+        <p className="cie10-match__name">
           {item.name}
         </p>
       </button>
@@ -30,11 +30,12 @@ export default class MatchList extends Component {
       <Match
         item={match}
         handleCIE10ItemClick={handleCIE10ItemClick}
+        key={match.code}
       />
     ))
 
     return (
-      <div class="diagnostic-impression__matches">
+      <div className="diagnostic-impression__matches">
         {matchElms}
       </div>
     )

@@ -61,12 +61,13 @@ export default class CIE10 extends Component {
         <CIE10Row
           item={addedItem}
           handleDelete={this.handleDelete}
+          key={addedItem.code}
         />
       )
     })
 
     return (
-      <div class="diagnostic-impression">
+      <div className="diagnostic-impression">
         <Input onInput={this.handleChange} label="Buscar" />
         <div style={{ display: this.state.showMatchList ? 'block' : 'none' }}>
           <MatchList

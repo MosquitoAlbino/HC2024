@@ -10,7 +10,7 @@ body {
   position: absolute;
   z-index: 1;
   background-color: white;
-  top: calc(100% + 7px);
+  top: 60px;
   left: 0;
   width: 100%;
   border-radius: 4px;

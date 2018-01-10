@@ -1,23 +1,24 @@
 import React    from 'react'
+import uuid     from 'uuid/v4'
 import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
 
 const IdentificationData = () => {
   const row1 = [{
-    label: 'NOMBRES:', id: 0
+    label: 'NOMBRES:', id: uuid(),
   }, {
-    label: 'APELLIDOS:', id: 1
+    label: 'APELLIDOS:', id: uuid(),
   }]
   const row2 = [{
-    label: 'EDAD:', id: 1,
+    label: 'EDAD:', id: uuid(),
   }, {
-    label: 'SEXO:', id: 2,
+    label: 'SEXO:', id: uuid(),
   }]
   const row3 = [{
-    label: 'MOTIVO DE CONSULTA:', id: 1,
+    label: 'MOTIVO DE CONSULTA:', id: uuid(),
   }]
   const row4 = [{
-    label: 'ENFERMEDAD ACTUAL:', id: 1,
+    label: 'ENFERMEDAD ACTUAL:', id: uuid(),
     type: 'textarea',
   }]
 

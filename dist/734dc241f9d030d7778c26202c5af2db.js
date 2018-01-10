@@ -161,7 +161,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],44:[function(require,module,exports) {
+},{}],46:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -179,7 +179,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = emptyObject;
-},{}],43:[function(require,module,exports) {
+},{}],45:[function(require,module,exports) {
 "use strict";
 
 /**
@@ -239,7 +239,7 @@ var U={Children:{map:function(a,b,e){if(null==a)return a;var c=[];T(a,c,null,b,e
 d=a.key,g=a.ref,k=a._owner;if(null!=b){void 0!==b.ref&&(g=b.ref,k=G.current);void 0!==b.key&&(d=""+b.key);if(a.type&&a.type.defaultProps)var f=a.type.defaultProps;for(h in b)H.call(b,h)&&!I.hasOwnProperty(h)&&(c[h]=void 0===b[h]&&void 0!==f?f[h]:b[h])}var h=arguments.length-2;if(1===h)c.children=e;else if(1<h){f=Array(h);for(var l=0;l<h;l++)f[l]=arguments[l+2];c.children=f}return{$$typeof:r,type:a.type,key:d,ref:g,props:c,_owner:k}},createFactory:function(a){var b=J.bind(null,a);b.type=a;return b},
 isValidElement:K,version:"16.2.0",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:G,assign:m}},V=Object.freeze({default:U}),W=V&&U||V;module.exports=W["default"]?W["default"]:W;
 
-},{"object-assign":37,"fbjs/lib/emptyObject":44,"fbjs/lib/emptyFunction":43}],49:[function(require,module,exports) {
+},{"object-assign":37,"fbjs/lib/emptyObject":46,"fbjs/lib/emptyFunction":45}],48:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -293,7 +293,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
-},{}],45:[function(require,module,exports) {
+},{}],47:[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -356,7 +356,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = warning;
-},{"./emptyFunction":43}],39:[function(require,module,exports) {
+},{"./emptyFunction":45}],39:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -430,7 +430,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 }
 
 module.exports = checkPropTypes;
-},{"fbjs/lib/invariant":49,"fbjs/lib/warning":45,"./lib/ReactPropTypesSecret":39}],23:[function(require,module,exports) {
+},{"fbjs/lib/invariant":48,"fbjs/lib/warning":47,"./lib/ReactPropTypesSecret":39}],23:[function(require,module,exports) {
 /** @license React v16.2.0
  * react.development.js
  *
@@ -1782,7 +1782,7 @@ if ("development" !== "production") {
     module.exports = react;
   })();
 }
-},{"object-assign":37,"fbjs/lib/emptyObject":44,"fbjs/lib/invariant":49,"fbjs/lib/warning":45,"fbjs/lib/emptyFunction":43,"prop-types/checkPropTypes":38}],10:[function(require,module,exports) {
+},{"object-assign":37,"fbjs/lib/emptyObject":46,"fbjs/lib/invariant":48,"fbjs/lib/warning":47,"fbjs/lib/emptyFunction":45,"prop-types/checkPropTypes":38}],10:[function(require,module,exports) {
 'use strict';
 
 if ("development" === 'production') {
@@ -1790,7 +1790,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react.development.js');
 }
-},{"./cjs/react.production.min.js":22,"./cjs/react.development.js":23}],47:[function(require,module,exports) {
+},{"./cjs/react.production.min.js":22,"./cjs/react.development.js":23}],49:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1824,7 +1824,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],46:[function(require,module,exports) {
+},{}],50:[function(require,module,exports) {
 'use strict';
 
 /**
@@ -1899,7 +1899,7 @@ var EventListener = {
 };
 
 module.exports = EventListener;
-},{"./emptyFunction":43}],48:[function(require,module,exports) {
+},{"./emptyFunction":45}],52:[function(require,module,exports) {
 'use strict';
 
 /**
@@ -1936,7 +1936,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-},{}],51:[function(require,module,exports) {
+},{}],54:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -2002,7 +2002,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],60:[function(require,module,exports) {
+},{}],63:[function(require,module,exports) {
 'use strict';
 
 /**
@@ -2025,7 +2025,7 @@ function isNode(object) {
 }
 
 module.exports = isNode;
-},{}],57:[function(require,module,exports) {
+},{}],58:[function(require,module,exports) {
 'use strict';
 
 /**
@@ -2048,7 +2048,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":60}],50:[function(require,module,exports) {
+},{"./isNode":63}],51:[function(require,module,exports) {
 'use strict';
 
 /**
@@ -2086,7 +2086,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":57}],52:[function(require,module,exports) {
+},{"./isTextNode":58}],53:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -2342,7 +2342,7 @@ var Sg={createPortal:Qg,findDOMNode:function(a){if(null==a)return null;if(1===a.
 E("40");return a._reactRootContainer?(Z.unbatchedUpdates(function(){Pg(null,null,a,!1,function(){a._reactRootContainer=null})}),!0):!1},unstable_createPortal:Qg,unstable_batchedUpdates:tc,unstable_deferredUpdates:Z.deferredUpdates,flushSync:Z.flushSync,__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{EventPluginHub:mb,EventPluginRegistry:Va,EventPropagators:Cb,ReactControlledComponent:qc,ReactDOMComponentTree:sb,ReactDOMEventListener:xd}};
 Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",rendererPackageName:"react-dom"});var Tg=Object.freeze({default:Sg}),Ug=Tg&&Sg||Tg;module.exports=Ug["default"]?Ug["default"]:Ug;
 
-},{"react":10,"fbjs/lib/ExecutionEnvironment":47,"object-assign":37,"fbjs/lib/emptyFunction":43,"fbjs/lib/EventListener":46,"fbjs/lib/getActiveElement":48,"fbjs/lib/shallowEqual":51,"fbjs/lib/containsNode":50,"fbjs/lib/focusNode":52,"fbjs/lib/emptyObject":44}],59:[function(require,module,exports) {
+},{"react":10,"fbjs/lib/ExecutionEnvironment":49,"object-assign":37,"fbjs/lib/emptyFunction":45,"fbjs/lib/EventListener":50,"fbjs/lib/getActiveElement":52,"fbjs/lib/shallowEqual":54,"fbjs/lib/containsNode":51,"fbjs/lib/focusNode":53,"fbjs/lib/emptyObject":46}],59:[function(require,module,exports) {
 'use strict';
 
 /**
@@ -2373,7 +2373,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],54:[function(require,module,exports) {
+},{}],55:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -2410,7 +2410,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":59}],58:[function(require,module,exports) {
+},{"./hyphenate":59}],60:[function(require,module,exports) {
 "use strict";
 
 /**
@@ -2440,7 +2440,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],53:[function(require,module,exports) {
+},{}],56:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -2478,7 +2478,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":58}],25:[function(require,module,exports) {
+},{"./camelize":60}],25:[function(require,module,exports) {
 /** @license React v16.2.0
  * react-dom.development.js
  *
@@ -17836,7 +17836,7 @@ if ("development" !== "production") {
     module.exports = reactDom;
   })();
 }
-},{"react":10,"fbjs/lib/invariant":49,"fbjs/lib/warning":45,"fbjs/lib/ExecutionEnvironment":47,"object-assign":37,"fbjs/lib/emptyFunction":43,"fbjs/lib/EventListener":46,"fbjs/lib/getActiveElement":48,"fbjs/lib/shallowEqual":51,"fbjs/lib/containsNode":50,"fbjs/lib/focusNode":52,"fbjs/lib/emptyObject":44,"prop-types/checkPropTypes":38,"fbjs/lib/hyphenateStyleName":54,"fbjs/lib/camelizeStyleName":53}],11:[function(require,module,exports) {
+},{"react":10,"fbjs/lib/invariant":48,"fbjs/lib/warning":47,"fbjs/lib/ExecutionEnvironment":49,"object-assign":37,"fbjs/lib/emptyFunction":45,"fbjs/lib/EventListener":50,"fbjs/lib/getActiveElement":52,"fbjs/lib/shallowEqual":54,"fbjs/lib/containsNode":51,"fbjs/lib/focusNode":53,"fbjs/lib/emptyObject":46,"prop-types/checkPropTypes":38,"fbjs/lib/hyphenateStyleName":55,"fbjs/lib/camelizeStyleName":56}],12:[function(require,module,exports) {
 'use strict';
 
 function checkDCE() {
@@ -17872,7 +17872,99 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.production.min.js":24,"./cjs/react-dom.development.js":25}],55:[function(require,module,exports) {
+},{"./cjs/react-dom.production.min.js":24,"./cjs/react-dom.development.js":25}],61:[function(require,module,exports) {
+var global = (1,eval)("this");
+// Unique ID creation requires a high quality random # generator.  In the
+// browser this is a little complicated due to unknown quality of Math.random()
+// and inconsistent support for the `crypto` API.  We do the best we can via
+// feature-detection
+var rng;
+
+var crypto = global.crypto || global.msCrypto; // for IE 11
+if (crypto && crypto.getRandomValues) {
+  // WHATWG crypto RNG - http://wiki.whatwg.org/wiki/Crypto
+  var rnds8 = new Uint8Array(16); // eslint-disable-line no-undef
+  rng = function whatwgRNG() {
+    crypto.getRandomValues(rnds8);
+    return rnds8;
+  };
+}
+
+if (!rng) {
+  // Math.random()-based (RNG)
+  //
+  // If all else fails, use Math.random().  It's fast, but is of unspecified
+  // quality.
+  var rnds = new Array(16);
+  rng = function() {
+    for (var i = 0, r; i < 16; i++) {
+      if ((i & 0x03) === 0) r = Math.random() * 0x100000000;
+      rnds[i] = r >>> ((i & 0x03) << 3) & 0xff;
+    }
+
+    return rnds;
+  };
+}
+
+module.exports = rng;
+
+},{}],62:[function(require,module,exports) {
+/**
+ * Convert array of 16 byte values to UUID string format of the form:
+ * XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+ */
+var byteToHex = [];
+for (var i = 0; i < 256; ++i) {
+  byteToHex[i] = (i + 0x100).toString(16).substr(1);
+}
+
+function bytesToUuid(buf, offset) {
+  var i = offset || 0;
+  var bth = byteToHex;
+  return bth[buf[i++]] + bth[buf[i++]] +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] + '-' +
+          bth[buf[i++]] + bth[buf[i++]] +
+          bth[buf[i++]] + bth[buf[i++]] +
+          bth[buf[i++]] + bth[buf[i++]];
+}
+
+module.exports = bytesToUuid;
+
+},{}],57:[function(require,module,exports) {
+var rng = require('./lib/rng');
+var bytesToUuid = require('./lib/bytesToUuid');
+
+function v4(options, buf, offset) {
+  var i = buf && offset || 0;
+
+  if (typeof(options) == 'string') {
+    buf = options == 'binary' ? new Array(16) : null;
+    options = null;
+  }
+  options = options || {};
+
+  var rnds = options.random || (options.rng || rng)();
+
+  // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+  rnds[6] = (rnds[6] & 0x0f) | 0x40;
+  rnds[8] = (rnds[8] & 0x3f) | 0x80;
+
+  // Copy bytes to buffer, if provided
+  if (buf) {
+    for (var ii = 0; ii < 16; ++ii) {
+      buf[i + ii] = rnds[ii];
+    }
+  }
+
+  return buf || bytesToUuid(rnds);
+}
+
+module.exports = v4;
+
+},{"./lib/rng":61,"./lib/bytesToUuid":62}],43:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18389,7 +18481,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
 
   return ReactPropTypes;
 };
-},{"fbjs/lib/emptyFunction":43,"fbjs/lib/invariant":49,"fbjs/lib/warning":45,"object-assign":37,"./lib/ReactPropTypesSecret":39,"./checkPropTypes":38}],56:[function(require,module,exports) {
+},{"fbjs/lib/emptyFunction":45,"fbjs/lib/invariant":48,"fbjs/lib/warning":47,"object-assign":37,"./lib/ReactPropTypesSecret":39,"./checkPropTypes":38}],44:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18449,7 +18541,7 @@ module.exports = function() {
   return ReactPropTypes;
 };
 
-},{"fbjs/lib/emptyFunction":43,"fbjs/lib/invariant":49,"./lib/ReactPropTypesSecret":39}],40:[function(require,module,exports) {
+},{"fbjs/lib/emptyFunction":45,"fbjs/lib/invariant":48,"./lib/ReactPropTypesSecret":39}],40:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -18473,7 +18565,7 @@ if ("development" !== 'production') {
   // http://fb.me/prop-types-in-prod
   module.exports = require('./factoryWithThrowingShims')();
 }
-},{"./factoryWithTypeCheckers":55,"./factoryWithThrowingShims":56}],35:[function(require,module,exports) {
+},{"./factoryWithTypeCheckers":43,"./factoryWithThrowingShims":44}],35:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -18481,6 +18573,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = require("react");
 
@@ -18494,25 +18588,65 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-var Input = function Input(_ref) {
-  var label = _ref.label,
-      type = _ref.type,
-      style = _ref.style,
-      rest = _objectWithoutProperties(_ref, ["label", "type", "style"]);
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  style = _extends({}, style.container);
-  var inputElm = type === 'input' ? _react2.default.createElement("input", _extends({ className: "input-text__input", type: "text" }, rest)) : _react2.default.createElement("textarea", _extends({ className: "input-text__input", cols: "5", rows: "10" }, rest));
-  return _react2.default.createElement(
-    "div",
-    { style: style, className: "input-text" },
-    _react2.default.createElement(
-      "label",
-      { className: "input-text__label" },
-      label
-    ),
-    inputElm
-  );
-};
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Input = function (_Component) {
+  _inherits(Input, _Component);
+
+  function Input() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Input);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Input.__proto__ || Object.getPrototypeOf(Input)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+      value: '',
+      firstTime: true
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(Input, [{
+    key: "render",
+    value: function render() {
+      var _props = this.props,
+          label = _props.label,
+          type = _props.type,
+          style = _props.style,
+          rest = _objectWithoutProperties(_props, ["label", "type", "style"]);
+
+      var inputElm = type === 'input' ? _react2.default.createElement("input", _extends({
+        className: "input-text__input",
+        type: "text"
+      }, rest)) : _react2.default.createElement("textarea", _extends({
+        className: "input-text__input",
+        cols: "5",
+        rows: "10"
+      }, rest));
+
+      return _react2.default.createElement(
+        "div",
+        { style: style, className: "input-text" },
+        _react2.default.createElement(
+          "label",
+          { className: "input-text__label" },
+          label
+        ),
+        inputElm
+      );
+    }
+  }]);
+
+  return Input;
+}(_react.Component);
 
 Input.propTypes = {
   label: _propTypes2.default.string,
@@ -18521,13 +18655,11 @@ Input.propTypes = {
     container: _propTypes2.default.shape({})
   })
 };
-
 Input.defaultProps = {
   label: '',
   type: 'input',
   style: {}
 };
-
 exports.default = Input;
 },{"react":10,"prop-types":40}],33:[function(require,module,exports) {
 "use strict";
@@ -18683,6 +18815,10 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _v = require("uuid/v4");
+
+var _v2 = _interopRequireDefault(_v);
+
 var _InputRow = require("../../components/InputRow");
 
 var _InputRow2 = _interopRequireDefault(_InputRow);
@@ -18695,17 +18831,17 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var ClinicHistory = function ClinicHistory() {
   var row1 = [{
-    label: 'HISTORIA CLINICA NO:', id: 0
+    label: 'HISTORIA CLINICA NO:', id: (0, _v2.default)()
   }, {
-    label: 'CAP/UPA', id: 1
+    label: 'CAP/UPA', id: (0, _v2.default)()
   }];
   var row2 = [{
-    label: 'FECHA DE INGRESO', id: 1
+    label: 'FECHA DE INGRESO', id: (0, _v2.default)()
   }, {
-    label: 'HORA', id: 2
+    label: 'HORA', id: (0, _v2.default)()
   }];
   var row3 = [{
-    label: 'DATOS DE IDENTIFICACIÓN', id: 1
+    label: 'DATOS DE IDENTIFICACIÓN', id: (0, _v2.default)()
   }];
 
   return _react2.default.createElement(
@@ -18722,7 +18858,7 @@ var ClinicHistory = function ClinicHistory() {
 };
 
 exports.default = ClinicHistory;
-},{"react":10,"../../components/InputRow":26,"../../components/Fieldset":27}],15:[function(require,module,exports) {
+},{"react":10,"uuid/v4":57,"../../components/InputRow":26,"../../components/Fieldset":27}],15:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -18732,6 +18868,10 @@ Object.defineProperty(exports, "__esModule", {
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _v = require("uuid/v4");
+
+var _v2 = _interopRequireDefault(_v);
 
 var _InputRow = require("../../components/InputRow");
 
@@ -18745,20 +18885,20 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var IdentificationData = function IdentificationData() {
   var row1 = [{
-    label: 'NOMBRES:', id: 0
+    label: 'NOMBRES:', id: (0, _v2.default)()
   }, {
-    label: 'APELLIDOS:', id: 1
+    label: 'APELLIDOS:', id: (0, _v2.default)()
   }];
   var row2 = [{
-    label: 'EDAD:', id: 1
+    label: 'EDAD:', id: (0, _v2.default)()
   }, {
-    label: 'SEXO:', id: 2
+    label: 'SEXO:', id: (0, _v2.default)()
   }];
   var row3 = [{
-    label: 'MOTIVO DE CONSULTA:', id: 1
+    label: 'MOTIVO DE CONSULTA:', id: (0, _v2.default)()
   }];
   var row4 = [{
-    label: 'ENFERMEDAD ACTUAL:', id: 1,
+    label: 'ENFERMEDAD ACTUAL:', id: (0, _v2.default)(),
     type: 'textarea'
   }];
 
@@ -18777,7 +18917,7 @@ var IdentificationData = function IdentificationData() {
 };
 
 exports.default = IdentificationData;
-},{"react":10,"../../components/InputRow":26,"../../components/Fieldset":27}],16:[function(require,module,exports) {
+},{"react":10,"uuid/v4":57,"../../components/InputRow":26,"../../components/Fieldset":27}],18:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -18787,6 +18927,10 @@ Object.defineProperty(exports, "__esModule", {
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _v = require("uuid/v4");
+
+var _v2 = _interopRequireDefault(_v);
 
 var _InputRow = require("../../components/InputRow");
 
@@ -18800,42 +18944,42 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Record = function Record() {
   var row1 = [{
-    label: 'G:', id: 0
+    label: 'G:', id: (0, _v2.default)()
   }, {
-    label: 'P:', id: 1
+    label: 'P:', id: (0, _v2.default)()
   }, {
-    label: 'A:', id: 2
+    label: 'A:', id: (0, _v2.default)()
   }, {
-    label: 'C:', id: 3
+    label: 'C:', id: (0, _v2.default)()
   }, {
-    label: 'V:', id: 4
+    label: 'V:', id: (0, _v2.default)()
   }];
   var row2 = [{
-    label: 'MENARQUIA:', id: 0
+    label: 'MENARQUIA:', id: (0, _v2.default)()
   }, {
-    label: 'FUM:', id: 1
+    label: 'FUM:', id: (0, _v2.default)()
   }, {
-    label: 'VM:', id: 2
+    label: 'VM:', id: (0, _v2.default)()
   }, {
-    label: 'VS:', id: 3
+    label: 'VS:', id: (0, _v2.default)()
   }];
   var row3 = [{
-    label: 'MÉDICOS:', id: 0
+    label: 'MÉDICOS:', id: (0, _v2.default)()
   }];
   var row4 = [{
-    label: 'QX:', id: 0
+    label: 'QX:', id: (0, _v2.default)()
   }];
   var row5 = [{
-    label: 'ALÉRGICOS:', id: 0
+    label: 'ALÉRGICOS:', id: (0, _v2.default)()
   }];
   var row6 = [{
-    label: 'TRAUMÁTICOS:', id: 1
+    label: 'TRAUMÁTICOS:', id: (0, _v2.default)()
   }];
   var row7 = [{
-    label: 'FAMILIARES:', id: 1
+    label: 'FAMILIARES:', id: (0, _v2.default)()
   }];
   var row8 = [{
-    label: 'OTROS:', id: 1
+    label: 'OTROS:', id: (0, _v2.default)()
   }];
 
   return _react2.default.createElement(
@@ -18856,7 +19000,7 @@ var Record = function Record() {
 };
 
 exports.default = Record;
-},{"react":10,"../../components/InputRow":26,"../../components/Fieldset":27}],17:[function(require,module,exports) {
+},{"react":10,"uuid/v4":57,"../../components/InputRow":26,"../../components/Fieldset":27}],16:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -18866,6 +19010,10 @@ Object.defineProperty(exports, "__esModule", {
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _v = require("uuid/v4");
+
+var _v2 = _interopRequireDefault(_v);
 
 var _InputRow = require("../../components/InputRow");
 
@@ -18879,31 +19027,31 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var PhysicalExamination = function PhysicalExamination() {
   var row1 = [{
-    label: 'ESTADO DE CONCIENCIA:', id: 0
+    label: 'ESTADO DE CONCIENCIA:', id: (0, _v2.default)()
   }];
   var row2 = [{
-    label: 'GRADO DE HIDRATACIÓN:', id: 0
+    label: 'GRADO DE HIDRATACIÓN:', id: (0, _v2.default)()
   }, {
-    label: 'FEBRIL:', id: 1
+    label: 'FEBRIL:', id: (0, _v2.default)()
   }];
   var row3 = [{
-    label: 'CARACTERISTICAS PREDOMINANTES EN EL PACIENTE:', id: 0
+    label: 'CARACTERISTICAS PREDOMINANTES EN EL PACIENTE:', id: (0, _v2.default)()
   }];
   var row4 = [{
-    label: 'T. ARTERIAL MMHG:', id: 0
+    label: 'T. ARTERIAL MMHG:', id: (0, _v2.default)()
   }, {
-    label: 'FC:', id: 1
+    label: 'FC:', id: (0, _v2.default)()
   }, {
-    label: 'FR:', id: 2
+    label: 'FR:', id: (0, _v2.default)()
   }, {
-    label: 'TEMPERATURA:', id: 3
+    label: 'TEMPERATURA:', id: (0, _v2.default)()
   }];
   var row5 = [{
-    label: 'PULSO:', id: 0
+    label: 'PULSO:', id: (0, _v2.default)()
   }, {
-    label: 'PESO:', id: 1
+    label: 'PESO:', id: (0, _v2.default)()
   }, {
-    label: 'TALLA:', id: 2
+    label: 'TALLA:', id: (0, _v2.default)()
   }];
 
   return _react2.default.createElement(
@@ -18922,7 +19070,7 @@ var PhysicalExamination = function PhysicalExamination() {
 };
 
 exports.default = PhysicalExamination;
-},{"react":10,"../../components/InputRow":26,"../../components/Fieldset":27}],18:[function(require,module,exports) {
+},{"react":10,"uuid/v4":57,"../../components/InputRow":26,"../../components/Fieldset":27}],17:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -18932,6 +19080,10 @@ Object.defineProperty(exports, "__esModule", {
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _v = require("uuid/v4");
+
+var _v2 = _interopRequireDefault(_v);
 
 var _InputRow = require("../../components/InputRow");
 
@@ -18945,7 +19097,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var AffectedSystemEvolution = function AffectedSystemEvolution() {
   var row1 = [{
-    id: 0,
+    id: (0, _v2.default)(),
     type: 'textarea'
   }];
 
@@ -18961,7 +19113,7 @@ var AffectedSystemEvolution = function AffectedSystemEvolution() {
 };
 
 exports.default = AffectedSystemEvolution;
-},{"react":10,"../../components/InputRow":26,"../../components/Fieldset":27}],61:[function(require,module,exports) {
+},{"react":10,"uuid/v4":57,"../../components/InputRow":26,"../../components/Fieldset":27}],66:[function(require,module,exports) {
 'use strict'
 
 exports.byteLength = byteLength
@@ -19077,7 +19229,7 @@ function fromByteArray (uint8) {
   return parts.join('')
 }
 
-},{}],63:[function(require,module,exports) {
+},{}],65:[function(require,module,exports) {
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
   var eLen = nBytes * 8 - mLen - 1
@@ -19163,7 +19315,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],62:[function(require,module,exports) {
+},{}],64:[function(require,module,exports) {
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
@@ -20963,7 +21115,7 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-},{"base64-js":61,"ieee754":63,"isarray":62,"buffer":42}],41:[function(require,module,exports) {
+},{"base64-js":66,"ieee754":65,"isarray":64,"buffer":42}],41:[function(require,module,exports) {
 var global = (1,eval)("this");
 var Buffer = require("buffer").Buffer;
 /**
@@ -38093,22 +38245,22 @@ var Match = function (_Component) {
 
       return _react2.default.createElement(
         "button",
-        { "class": "cie10-match", onClick: function onClick(e) {
+        { className: "cie10-match", onClick: function onClick(e) {
             return handleCIE10ItemClick(_extends({}, item));
           } },
         _react2.default.createElement(
           "p",
-          { "class": "cie10-match__index" },
+          { className: "cie10-match__index" },
           "0"
         ),
         _react2.default.createElement(
           "p",
-          { "class": "cie10-match__code" },
+          { className: "cie10-match__code" },
           item.code
         ),
         _react2.default.createElement(
           "p",
-          { "class": "cie10-match__name" },
+          { className: "cie10-match__name" },
           item.name
         )
       );
@@ -38137,13 +38289,14 @@ var MatchList = function (_Component2) {
       var matchElms = matches.map(function (match) {
         return _react2.default.createElement(Match, {
           item: match,
-          handleCIE10ItemClick: handleCIE10ItemClick
+          handleCIE10ItemClick: handleCIE10ItemClick,
+          key: match.code
         });
       });
 
       return _react2.default.createElement(
         "div",
-        { "class": "diagnostic-impression__matches" },
+        { className: "diagnostic-impression__matches" },
         matchElms
       );
     }
@@ -38188,7 +38341,6 @@ var CIE10Row = function CIE10Row(_ref) {
   var item = _ref.item,
       handleDelete = _ref.handleDelete;
 
-  console.log('item', item, 'defaultValue');
   return _react2.default.createElement(
     "div",
     { className: "diagnostic-impression-item" },
@@ -38204,11 +38356,11 @@ var CIE10Row = function CIE10Row(_ref) {
     ),
     _react2.default.createElement(
       "div",
-      { "class": "diagnostic-impression-item__close-container" },
+      { className: "diagnostic-impression-item__close-container" },
       _react2.default.createElement(
         "button",
         {
-          "class": "diagnostic-impression-item__close",
+          className: "diagnostic-impression-item__close",
           onClick: function onClick() {
             return handleDelete(item);
           }
@@ -38314,13 +38466,14 @@ var CIE10 = function (_Component) {
       var cie10Rows = this.state.CIE10AddedItems.map(function (addedItem) {
         return _react2.default.createElement(_CIE10Row2.default, {
           item: addedItem,
-          handleDelete: _this2.handleDelete
+          handleDelete: _this2.handleDelete,
+          key: addedItem.code
         });
       });
 
       return _react2.default.createElement(
         "div",
-        { "class": "diagnostic-impression" },
+        { className: "diagnostic-impression" },
         _react2.default.createElement(_Input2.default, { onInput: this.handleChange, label: "Buscar" }),
         _react2.default.createElement(
           "div",
@@ -38362,7 +38515,7 @@ var _CIE2 = _interopRequireDefault(_CIE);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _CIE2.default;
-},{"./CIE10":31}],19:[function(require,module,exports) {
+},{"./CIE10":31}],20:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38392,7 +38545,7 @@ var DiagnosticImpression = function DiagnosticImpression() {
 };
 
 exports.default = DiagnosticImpression;
-},{"react":10,"../../components/Fieldset":27,"../../components/CIE10":28}],20:[function(require,module,exports) {
+},{"react":10,"../../components/Fieldset":27,"../../components/CIE10":28}],19:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38402,6 +38555,10 @@ Object.defineProperty(exports, "__esModule", {
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _v = require("uuid/v4");
+
+var _v2 = _interopRequireDefault(_v);
 
 var _InputRow = require("../../components/InputRow");
 
@@ -38415,9 +38572,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var DiagnosticImpression = function DiagnosticImpression() {
   var row1 = [{
-    label: 'A. FARMACOLÓGICO:', id: 0, type: 'textarea'
+    label: 'A. FARMACOLÓGICO:', id: (0, _v2.default)(), type: 'textarea'
   }, {
-    label: 'A. NO FARMACOLÓGICO:', id: 0, type: 'textarea'
+    label: 'A. NO FARMACOLÓGICO:', id: (0, _v2.default)(), type: 'textarea'
   }];
 
   return _react2.default.createElement(
@@ -38432,7 +38589,7 @@ var DiagnosticImpression = function DiagnosticImpression() {
 };
 
 exports.default = DiagnosticImpression;
-},{"react":10,"../../components/InputRow":26,"../../components/Fieldset":27}],21:[function(require,module,exports) {
+},{"react":10,"uuid/v4":57,"../../components/InputRow":26,"../../components/Fieldset":27}],21:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38442,6 +38599,10 @@ Object.defineProperty(exports, "__esModule", {
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
+
+var _v = require("uuid/v4");
+
+var _v2 = _interopRequireDefault(_v);
 
 var _InputRow = require("../../components/InputRow");
 
@@ -38455,25 +38616,25 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var AffectedSystemEvolution = function AffectedSystemEvolution() {
   var row1 = [{
-    id: 0,
+    id: (0, _v2.default)(),
     label: 'AYUDAS DIAGNÓSTICAS ORDENADAS:',
     type: 'textarea'
   }];
   var row2 = [{
     label: 'PROCEDIMIENTOS:',
     type: 'textarea',
-    id: 0
+    id: (0, _v2.default)()
   }];
   var row3 = [{
     label: 'NOMBRE DEL MEDICO:',
-    id: 0
+    id: (0, _v2.default)()
   }, {
     label: 'REGISTRO',
-    id: 0
+    id: (0, _v2.default)()
   }];
   var row4 = [{
     label: 'FIRMA DE SELLO:',
-    id: 0
+    id: (0, _v2.default)()
   }];
 
   return _react2.default.createElement(
@@ -38491,7 +38652,7 @@ var AffectedSystemEvolution = function AffectedSystemEvolution() {
 };
 
 exports.default = AffectedSystemEvolution;
-},{"react":10,"../../components/InputRow":26,"../../components/Fieldset":27}],7:[function(require,module,exports) {
+},{"react":10,"uuid/v4":57,"../../components/InputRow":26,"../../components/Fieldset":27}],7:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -38522,7 +38683,7 @@ function getBaseURL(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 
-},{}],12:[function(require,module,exports) {
+},{}],11:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundles(bundles) {
@@ -38684,7 +38845,6 @@ var Root = function (_Component) {
     }
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Root.__proto__ || Object.getPrototypeOf(Root)).call.apply(_ref, [this].concat(args))), _this), _this.componentDidMount = function () {
-      console.log('hellow');
       require("_bundle_loader")(require.resolve("../../data/cie10-array.json")).then(function (cie10DB) {
         window.cie10DB = cie10DB;
         console.log('cie10DB', window.cie10DB);
@@ -38753,7 +38913,7 @@ var Root = function (_Component) {
 }(_react.Component);
 
 exports.default = Root;
-},{"react":10,"./ClinicHistory":14,"./IdentificationData":15,"./Record":16,"./PhysicalExamination":17,"./AffectedSystemEvolution":18,"./DiagnosticImpression":19,"./TherapeuticPlan":20,"./DiagnosticAidOrdered":21,"_bundle_loader":12,"../../data/cie10-array.json":["55e6fd64763c4616a9fe472c39d474c0.js",13]}],8:[function(require,module,exports) {
+},{"react":10,"./ClinicHistory":14,"./IdentificationData":15,"./Record":18,"./PhysicalExamination":16,"./AffectedSystemEvolution":17,"./DiagnosticImpression":20,"./TherapeuticPlan":19,"./DiagnosticAidOrdered":21,"_bundle_loader":11,"../../data/cie10-array.json":["55e6fd64763c4616a9fe472c39d474c0.js",13]}],8:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38807,7 +38967,7 @@ var _App2 = _interopRequireDefault(_App);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('app'));
-},{"react":10,"react-dom":11,"./App":6}],0:[function(require,module,exports) {
+},{"react":10,"react-dom":12,"./App":6}],0:[function(require,module,exports) {
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
 function Module() {
@@ -38825,7 +38985,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':55298/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':60285/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 

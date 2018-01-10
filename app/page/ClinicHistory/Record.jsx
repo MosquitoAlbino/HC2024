@@ -1,45 +1,46 @@
 import React    from 'react'
+import uuid     from 'uuid/v4'
 import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
 
 const Record = () => {
   const row1 = [{
-    label: 'G:', id: 0,
+    label: 'G:', id: uuid(),
   }, {
-    label: 'P:', id: 1,
+    label: 'P:', id: uuid(),
   }, {
-    label: 'A:', id: 2,
+    label: 'A:', id: uuid(),
   }, {
-    label: 'C:', id: 3,
+    label: 'C:', id: uuid(),
   }, {
-    label: 'V:', id: 4,
+    label: 'V:', id: uuid(),
   }]
   const row2 = [{
-    label: 'MENARQUIA:', id: 0,
+    label: 'MENARQUIA:', id: uuid(),
   }, {
-    label: 'FUM:', id: 1,
+    label: 'FUM:', id: uuid(),
   }, {
-    label: 'VM:', id: 2,
+    label: 'VM:', id: uuid(),
   }, {
-    label: 'VS:', id: 3,
+    label: 'VS:', id: uuid(),
   }]
   const row3 = [{
-    label: 'MÉDICOS:', id: 0,
+    label: 'MÉDICOS:', id: uuid(),
   }]
   const row4 = [{
-    label: 'QX:', id: 0,
+    label: 'QX:', id: uuid(),
   }]
   const row5 = [{
-    label: 'ALÉRGICOS:', id: 0
+    label: 'ALÉRGICOS:', id: uuid()
   }]
   const row6 = [{
-    label: 'TRAUMÁTICOS:', id: 1,
+    label: 'TRAUMÁTICOS:', id: uuid(),
   }]
   const row7 = [{
-    label: 'FAMILIARES:', id: 1,
+    label: 'FAMILIARES:', id: uuid(),
   }]
   const row8 = [{
-    label: 'OTROS:', id: 1,
+    label: 'OTROS:', id: uuid(),
   }]
 
   return (

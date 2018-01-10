@@ -12,7 +12,6 @@ import DiagnosticAidOrdered    from './DiagnosticAidOrdered'
 
 export default class Root extends Component {
   componentDidMount = () => {
-    console.log('hellow')
     import('../../data/cie10-array.json')
       .then((cie10DB) => {
         window.cie10DB = cie10DB
