@@ -46,11 +46,22 @@ export default class CIE10 extends Component {
     this.setState({ CIE10AddedItems, showMatchList: false })
   }
 
+  handleDelete = (itemToDelete) => {
+    const newAddedItems = (
+      this.state.CIE10AddedItems.filter((addedItem) => {
+        return addedItem.code !== itemToDelete.code
+      })
+    )
+    this.setState({ CIE10AddedItems: newAddedItems })
+  }
+
   render() {
-    console.log('CIE10AddedItems', this.state.CIE10AddedItems)
     const cie10Rows = this.state.CIE10AddedItems.map(addedItem => {
       return (
-        <CIE10Row item={addedItem} />
+        <CIE10Row
+          item={addedItem}
+          handleDelete={this.handleDelete}
+        />
       )
     })
 
@@ -63,6 +74,7 @@ export default class CIE10 extends Component {
             handleCIE10ItemClick={this.handleCIE10ItemClick}
           />
         </div>
+        <h4>Impresiones</h4>
         <div>{cie10Rows}</div>
       </div>
     )

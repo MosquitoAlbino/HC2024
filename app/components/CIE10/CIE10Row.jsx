@@ -1,19 +1,22 @@
 import React from 'react'
+import Input from 'components/Input'
 
-const CIE10Row = ({ item }) => {
+const CIE10Row = ({ item, handleDelete }) => {
+  console.log('item', item, 'defaultValue')
   return (
-    <div class="diagnostic-impression-item">
-      <div data-field-span="6">
-        <label>Código:</label>
-        <input type="text" value={item.code} />
+    <div className="diagnostic-impression-item">
+      <div className="diagnostic-impression-item__code">
+        <Input label="Código:" defaultValue={item.code} />
       </div>
-      <div data-field-span="3">
-        <label>Nombre:</label>
-        <input type="text" value={item.name} />
+      <div className="diagnostic-impression-item__name">
+        <Input label="Nombre:" defaultValue={item.name} />
       </div>
       <div class="diagnostic-impression-item__close-container">
-        <button class="diagnostic-impression-item__close">
-          eliminar
+        <button
+          class="diagnostic-impression-item__close"
+          onClick={() => handleDelete(item)}
+        >
+          Eliminar
         </button>
       </div>
     </div>
