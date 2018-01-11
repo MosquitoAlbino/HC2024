@@ -75,7 +75,11 @@ export default class CIE10 extends Component {
             handleCIE10ItemClick={this.handleCIE10ItemClick}
           />
         </div>
-        <h4>Impresiones</h4>
+        {
+          cie10Rows.length ? (
+            <h4>Impresiones</h4>
+          ) : null
+        }
         <div>{cie10Rows}</div>
       </div>
     )
