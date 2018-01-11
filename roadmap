@@ -5,17 +5,22 @@ Proceso
 
 Todos 
 - pasar a react
-  - implementar la funcionalidad de cie10 en la nueva app hecha con react
-  - optimizar la generacion de row items
-- manejar dos páginas por ahora. 1. Control y 2. primera vez y ponerlo en el "inicio"
+  - deploy app
+  - manejar dos páginas por ahora. 1. Control y 2. primera vez y ponerlo en el "inicio"
+
 - poner nuevos campos a la historia clinica
+
 - reestructura "Antecedentes"
+
 - guardar en base de datos
+
 - investigar pos (plan obligatorio de salud)
   - buscar pos2015 json
   - campos
     - medicamento
     - cantidad
     - uso
+
 - prellenar la información del paciente en la historia clinica con los datos que se pusieron en "/citas"
+
 - login/autenticación de usuario por seguridad
