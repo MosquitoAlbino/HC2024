@@ -5,8 +5,10 @@
   "main": "gridform.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel new-version.html",
-    "build": "parcel build new-version.html -d build/production"
+    "start": "parcel ./app/index.html",
+    "copy-files": "cp ./app/index.html ./build/ && cp ./app/styles.css ./build",
+    "build": "parcel build ./app/index.js -d build/ && npm run copy-files",
+    "deploy": "cd ./build/ && surge"
   },
   "repository": {
     "type": "git",
