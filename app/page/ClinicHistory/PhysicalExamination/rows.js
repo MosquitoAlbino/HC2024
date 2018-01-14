@@ -41,8 +41,8 @@ export default function getRows({
     }, {
       label: 'IMC:',
       id: uuid(),
-      value: imc,
-      disabled: true,
+      // value: imc,
+      // disabled: true,
     }]
   ])
 }
