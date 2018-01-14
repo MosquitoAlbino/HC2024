@@ -31,12 +31,12 @@ export default function getRows({
     }, {
       label: 'Peso:',
       id: uuid(),
-      onChange: handleWeightChange,
+      // onChange: handleWeightChange,
       type: 'number',
     }, {
       label: 'Talla:',
       id: uuid(),
-      onChange: handleSizeChange,
+      // onChange: handleSizeChange,
       type: 'number',
     }, {
       label: 'IMC:',
