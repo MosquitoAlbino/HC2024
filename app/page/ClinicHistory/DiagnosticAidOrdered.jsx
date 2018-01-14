@@ -1,38 +1,35 @@
 import React    from 'react'
 import uuid     from 'uuid/v4'
 import InputRow from 'components/InputRow'
+import InputRows from 'components/InputRow/InputRows'
 import Fieldset from 'components/Fieldset'
 
 const AffectedSystemEvolution = () => {
-  const row1 = [{
-    id: uuid(),
-    label: 'AYUDAS DIAGNÓSTICAS ORDENADAS:',
-    type: 'textarea'
-  }]
-  const row2 = [{
-    label: 'PROCEDIMIENTOS:',
-    type: 'textarea',
-    id: uuid(),
-  }]
-  const row3 = [{
-    label: 'NOMBRE DEL MEDICO:',
-    id: uuid(),
-  }, {
-    label: 'REGISTRO',
-    id: uuid(),
-  }]
-  const row4 = [{
-    label: 'FIRMA DE SELLO:',
-    id: uuid(),
-  }]
+  const rows = [
+    [{
+      id: uuid(),
+      label: 'Ayudas diagnósticas ordenadas:',
+      type: 'textarea'
+    }], [{
+      label: 'Procedimientos:',
+      type: 'textarea',
+      id: uuid(),
+    }], [{
+      label: 'Nombre del medico:',
+      id: uuid(),
+    }, {
+      label: 'Registro',
+      id: uuid(),
+    }], [{
+      label: 'Firma de sello:',
+      id: uuid(),
+    }]
+  ]
 
   return (
     <div>
       <Fieldset title="Ayudas diagnósticas ordenadas:">
-        <InputRow items={row1} />
-        <InputRow items={row2} />
-        <InputRow items={row3} />
-        <InputRow items={row4} />
+        <InputRows rows={rows} />
       </Fieldset>
     </div>
   )

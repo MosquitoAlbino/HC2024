@@ -5,9 +5,9 @@ import Fieldset from 'components/Fieldset'
 
 const DiagnosticImpression = () => {
   const row1 = [{
-    label: 'A. FARMACOLÓGICO:', id: uuid(), type: 'textarea'
+    label: 'A. Farmacológico:', id: uuid(), type: 'textarea'
   }, {
-    label: 'A. NO FARMACOLÓGICO:', id: uuid(), type: 'textarea'
+    label: 'A. No farmacológico:', id: uuid(), type: 'textarea'
   }]
 
   return (

@@ -1,58 +1,56 @@
-import React    from 'react'
-import uuid     from 'uuid/v4'
-import InputRow from 'components/InputRow'
-import Fieldset from 'components/Fieldset'
+import React     from 'react'
+import uuid      from 'uuid/v4'
+import InputRows from 'components/InputRow/InputRows'
+import Fieldset  from 'components/Fieldset'
 
 const Record = () => {
-  const row1 = [{
-    label: 'G:', id: uuid(),
-  }, {
-    label: 'P:', id: uuid(),
-  }, {
-    label: 'A:', id: uuid(),
-  }, {
-    label: 'C:', id: uuid(),
-  }, {
-    label: 'V:', id: uuid(),
-  }]
-  const row2 = [{
-    label: 'MENARQUIA:', id: uuid(),
-  }, {
-    label: 'FUM:', id: uuid(),
-  }, {
-    label: 'VM:', id: uuid(),
-  }, {
-    label: 'VS:', id: uuid(),
-  }]
-  const row3 = [{
-    label: 'MÉDICOS:', id: uuid(),
-  }]
-  const row4 = [{
-    label: 'QX:', id: uuid(),
-  }]
-  const row5 = [{
-    label: 'ALÉRGICOS:', id: uuid()
-  }]
-  const row6 = [{
-    label: 'TRAUMÁTICOS:', id: uuid(),
-  }]
-  const row7 = [{
-    label: 'FAMILIARES:', id: uuid(),
-  }]
-  const row8 = [{
-    label: 'OTROS:', id: uuid(),
-  }]
+  const rows = [
+    [{
+      label: 'Gravida:', id: uuid(),
+    }, {
+      label: 'Parto:', id: uuid(),
+    }, {
+      label: 'Aborto:', id: uuid(),
+    }, {
+      label: 'Cesarea:', id: uuid(),
+    }, {
+      label: 'Hijos vivos:', id: uuid(),
+    }],
+    [{
+      label: 'Menarquia:', id: uuid(),
+    }, {
+      label: 'FUM:', id: uuid(),
+    }, {
+      label: 'Vida marital:', id: uuid(),
+    }, {
+      label: 'Vida sexual:', id: uuid(),
+    }, {
+      label: 'Vida obstetrica:', id: uuid(),
+    }],
+    [{
+      label: 'Médicos:', id: uuid(),
+    }],
+    [{
+      label: 'Qirurgicos:', id: uuid(),
+    }],
+    [{
+      label: 'Alérgicos:', id: uuid()
+    }],
+    [{
+      label: 'Traumáticos:', id: uuid(),
+    }],
+    [{
+      label: 'Familiares:', id: uuid(),
+    }],
+    [{
+      label: 'Otros:', id: uuid(),
+    }],
+  ]
 
   return (
     <div>
-      <Fieldset title="Antecedentes:">
-        <InputRow items={row1} />
-        <InputRow items={row2} />
-        <InputRow items={row3} />
-        <InputRow items={row4} />
-        <InputRow items={row5} />
-        <InputRow items={row6} />
-        <InputRow items={row7} />
+      <Fieldset title="Antecedentes personales:">
+        <InputRows rows={rows} />
       </Fieldset>
     </div>
   )

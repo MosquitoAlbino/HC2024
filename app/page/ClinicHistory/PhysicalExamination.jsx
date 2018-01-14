@@ -5,15 +5,15 @@ import Fieldset from 'components/Fieldset'
 
 const PhysicalExamination = () => {
   const row1 = [{
-    label: 'ESTADO DE CONCIENCIA:', id: uuid(),
+    label: 'Estado de conciencia:', id: uuid(),
   }]
   const row2 = [{
-    label: 'GRADO DE HIDRATACIÓN:', id: uuid(),
+    label: 'Grado de hidratación:', id: uuid(),
   }, {
-    label: 'FEBRIL:', id: uuid(),
+    label: 'Febril:', id: uuid(),
   }]
   const row3 = [{
-    label: 'CARACTERISTICAS PREDOMINANTES EN EL PACIENTE:', id: uuid(),
+    label: 'Caracteristicas predominantes en el paciente:', id: uuid(),
   }]
   const row4 = [{
     label: 'T. ARTERIAL MMHG:', id: uuid(),
@@ -22,14 +22,14 @@ const PhysicalExamination = () => {
   }, {
     label: 'FR:', id: uuid(),
   }, {
-    label: 'TEMPERATURA:', id: uuid(),
+    label: 'Temperatura:', id: uuid(),
   }]
   const row5 = [{
-    label: 'PULSO:', id: uuid(),
+    label: 'Pulso:', id: uuid(),
   }, {
-    label: 'PESO:', id: uuid(),
+    label: 'Peso:', id: uuid(),
   }, {
-    label: 'TALLA:', id: uuid(),
+    label: 'Talla:', id: uuid(),
   }]
 
   return (

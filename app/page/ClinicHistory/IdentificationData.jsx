@@ -1,36 +1,117 @@
-import React    from 'react'
-import uuid     from 'uuid/v4'
-import InputRow from 'components/InputRow'
-import Fieldset from 'components/Fieldset'
+import React     from 'react'
+import uuid      from 'uuid/v4'
+import InputRows from 'components/InputRow/InputRows'
+import Fieldset  from 'components/Fieldset'
 
 const IdentificationData = () => {
-  const row1 = [{
-    label: 'NOMBRES:', id: uuid(),
-  }, {
-    label: 'APELLIDOS:', id: uuid(),
-  }]
-  const row2 = [{
-    label: 'EDAD:', id: uuid(),
-  }, {
-    label: 'SEXO:', id: uuid(),
-  }]
-  const row3 = [{
-    label: 'MOTIVO DE CONSULTA:', id: uuid(),
-  }]
-  const row4 = [{
-    label: 'ENFERMEDAD ACTUAL:', id: uuid(),
-    type: 'textarea',
-  }]
+  const rows = [
+    [
+      {
+        label: 'Nombres:', id: uuid(),
+      }, {
+        label: 'Apellidos:', id: uuid(),
+      }
+    ],
+    [
+      {
+        label: 'Fecha de nacimiento:', id: uuid(),
+      }, {
+        label: 'Edad:', id: uuid(),
+      }, {
+        label: 'Sexo:', id: uuid(),
+      }
+    ],
+    [
+      {
+        label: 'Tipo de identificación:',
+        id: uuid(),
+      },
+      {
+        label: 'No.',
+        id: uuid(),
+      },
+      {
+        label: 'Estado civil:',
+        id: uuid(),
+      },
+    ],
+    [
+      {
+        label: 'Ocupación:',
+        id: uuid(),
+      },
+      {
+        label: 'Dirección:',
+        id: uuid(),
+      },
+    ],
+    [
+      {
+        label: 'Teléfono',
+        id: uuid(),
+      },
+      {
+        label: 'Aseguradora:',
+        id: uuid(),
+      },
+    ],
+    [
+      {
+        label: 'Carnet No.',
+        id: uuid(),
+      },
+      {
+        label: 'Regimen:',
+        id: uuid(),
+      },
+    ],
+    [
+      {
+        label: 'Nombre del acompañante:',
+        id: uuid(),
+      },
+      {
+        label: 'Parentesco:',
+        id: uuid(),
+      },
+    ],
+    [
+      {
+        label: 'Dirección:',
+        id: uuid(),
+      },
+      {
+        label: 'Teléfono:',
+        id: uuid(),
+      },
+      {
+        label: 'Raza:',
+        id: uuid(),
+      },
+      {
+        label: 'Nivel educativo:',
+        id: uuid(),
+      },
+    ],
+    [
+      {
+        label: 'Motivo de consulta:',
+        id: uuid(),
+        type: 'textarea',
+      }
+    ],
+    [
+      {
+        label: 'Enfermedad actual:', id: uuid(),
+        type: 'textarea',
+      }
+    ]
+  ]
 
   return (
-    <div>
-      <Fieldset title="Datos de identificación">
-        <InputRow items={row1} />
-        <InputRow items={row2} />
-        <InputRow items={row3} />
-        <InputRow items={row4} />
-      </Fieldset>
-    </div>
+    <Fieldset title="Datos de identificación">
+      <InputRows rows={rows} />
+    </Fieldset>
   )
 }
 
