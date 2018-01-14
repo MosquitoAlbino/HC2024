@@ -13,10 +13,7 @@ const InputRow = ({ items }) => {
       key={item.id}
       style={{ width: `${itemWidth}%` }}
     >
-      <Input
-        label={item.label}
-        type={item.type}
-      />
+      <Input {...item} />
     </div>
   ))
 

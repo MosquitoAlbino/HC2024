@@ -4,9 +4,9 @@ import InputRow from './InputRow'
 import uuid     from 'uuid/v4'
 
 const InputRows = ({ rows }) => {
-  const rowElms = rows.map(row => {
-    return <InputRow items={row} key={uuid()} />
-  })
+  const rowElms = rows.map(row => (
+    <InputRow items={row} key={uuid()} />
+  ))
   return rowElms
 }
 
