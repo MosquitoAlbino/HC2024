@@ -7,27 +7,35 @@ import getRows   from './rows'
 
 export default class PhysicalExamination extends Component {
   state = {
-    weigth: 0,
-    size: 0,
+    values: {
+      weight: 0,
+      size: 0,
+    },
   }
 
   handleWeightChange = (event) => {
-    this.setState({ weigth: event.target.value })
+    const weight = +event.target.value
+    this.updateValue({ key: 'weight', value: weight })
   }
 
   handleSizeChange = (event) => {
-    this.setState({ size: event.target.value })
+    const size = +event.target.value
+    this.updateValue({ key: 'size', value: size })
+  }
+
+  updateValue = ({ key, value } = {}, cb = () => {}) => {
+    this.setState({ values: {
+      ...this.state.values,
+      [key]: value,
+    }}, cb)
   }
 
   calcIMC = () => {
-    const { weigth, size } = this.state
-    let imc
-    if (weigth > 0 && size > 0) {
-      let imc = weigth / (size * 2)
-    } else {
-      imc = 0
-    }
-    console.log('imc', imc)
+    const { weight, size } = this.state.values
+    let imc = (weight > 0 && size > 0) ? (
+      weight / Math.pow(size / 100, 2)
+    ) : 0
+    imc = imc > 0 ? imc.toFixed(2) : imc
     return imc
   }
 
@@ -36,7 +44,7 @@ export default class PhysicalExamination extends Component {
     const rows = getRows({
       handleWeightChange: this.handleWeightChange,
       handleSizeChange: this.handleSizeChange,
-      imc,
+      values: { ...this.state.values, imc },
     })
 
     return (
