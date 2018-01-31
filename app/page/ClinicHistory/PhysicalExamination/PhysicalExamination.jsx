@@ -9,31 +9,24 @@ import getRows   from './rows'
 
 export default class PhysicalExamination extends Component {
   state = {
-    values: {
-      weight: 0,
-      size: 0,
-    },
+    weight: 0,
+    size: 0,
   }
 
   handleWeightChange = (event) => {
-    const weight = +event.target.value
-    this.updateValue({ key: 'weight', value: weight })
+    const weight = event.target.value
+    this.setState({ weight })
   }
 
   handleSizeChange = (event) => {
-    const size = +event.target.value
-    this.updateValue({ key: 'size', value: size })
-  }
-
-  updateValue = ({ key, value } = {}, cb = () => {}) => {
-    this.setState({ values: {
-      ...this.state.values,
-      [key]: value,
-    }}, cb)
+    const size = event.target.value
+    this.setState({ size })
   }
 
   calcIMC = () => {
-    const { weight, size } = this.state.values
+    const weight = +this.state.weight
+    const size = +this.state.size
+
     let imc = (weight > 0 && size > 0) ? (
       weight / Math.pow(size / 100, 2)
     ) : 0
