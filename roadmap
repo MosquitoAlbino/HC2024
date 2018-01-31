@@ -4,10 +4,19 @@ Proceso
 - registro de la historia clinica
 
 Todos 
-- poner nuevos campos a la historia clinica
-  - corregir el problema de foco en los elementos (ver imc calculadora)
+- Refactorizar código para dejar de usar InputRow e InputRows components para mejor usabilidad
 
-- reestructura "Antecedentes"
+- calcular edad con la fecha que se seleccione en los datos de identificación
+
+- en el cie10 para cada impresion va un campo desplegable se llama tipo de diagnostico y debe contener las 3 opciones
+  1. impresion diagnostica
+  2. confirmado nuevo
+  3. confirmado repetido
+
+- login
+  - para administrador
+  - para citas
+  - para médicos
 
 - guardar en base de datos
 

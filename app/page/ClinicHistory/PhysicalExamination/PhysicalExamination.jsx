@@ -3,6 +3,8 @@ import React, {
 }                from 'react'
 import InputRows from 'components/InputRow/InputRows'
 import Fieldset  from 'components/Fieldset'
+import Input     from 'components/Input'
+import Row       from 'components/Row'
 import getRows   from './rows'
 
 export default class PhysicalExamination extends Component {
@@ -39,17 +41,78 @@ export default class PhysicalExamination extends Component {
     return imc
   }
 
+  getRowStyles = length => ({
+    display: 'flex',
+  })
+
+  getInputStyle = (length) => ({
+    width: `${(100 / length) - 1}%`,
+  })
+
   render() {
     const imc = this.calcIMC()
-    const rows = getRows({
-      handleWeightChange: this.handleWeightChange,
-      handleSizeChange: this.handleSizeChange,
-      values: { ...this.state.values, imc },
-    })
 
     return (
       <Fieldset title="Examen físico">
-        <InputRows rows={rows} />
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Estado de conciencia:" />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input
+            label="Grado de hidratación:"
+            style={this.getInputStyle(2)}
+          />
+          <Input
+            label="Febril:"
+            style={this.getInputStyle(2)}
+          />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Caracteristicas predominantes en el paciente:" />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input
+            label="T. ARTERIAL MMHG:"
+            style={this.getInputStyle(4)}
+          />
+          <Input
+            label="FC:"
+            style={this.getInputStyle(4)}
+          />
+          <Input
+            label="FR:"
+            style={this.getInputStyle(4)}
+          />
+          <Input
+            label="Temperatura:"
+            style={this.getInputStyle(4)}
+          />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input
+            label="Pulso:"
+            style={this.getInputStyle(4)}
+          />
+          <Input
+            label="Peso:"
+            type="number"
+            onChange={this.handleWeightChange}
+            style={this.getInputStyle(4)}
+            value={this.state.weight}
+          />
+          <Input
+            label="Talla:"
+            type="number"
+            onChange={this.handleSizeChange}
+            style={this.getInputStyle(4)}
+            value={this.state.size}
+          />
+          <Input
+            label="IMC:"
+            style={this.getInputStyle(4)}
+            value={imc}
+          />
+        </Row>
       </Fieldset>
     )
   }
