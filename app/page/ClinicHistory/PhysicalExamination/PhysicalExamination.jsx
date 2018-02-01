@@ -5,7 +5,6 @@ import InputRows from 'components/InputRow/InputRows'
 import Fieldset  from 'components/Fieldset'
 import Input     from 'components/Input'
 import Row       from 'components/Row'
-import getRows   from './rows'
 
 export default class PhysicalExamination extends Component {
   state = {
@@ -34,7 +33,7 @@ export default class PhysicalExamination extends Component {
     return imc
   }
 
-  getRowStyles = length => ({
+  getRowStyles = () => ({
     display: 'flex',
   })
 

@@ -1,12 +1,43 @@
 import React, {
-  Component
+  Component,
 }                from 'react'
 import PropTypes from 'prop-types'
+
+const inputText = props => (
+  <input
+    className="input-text__input"
+    type="text"
+    {...props}
+  />
+)
+
+const input = {
+  textarea: (props) => (
+    <textarea
+      className="input-text__input"
+      cols="5"
+      rows="10"
+      {...props}
+    />
+  ),
+  text: inputText,
+  input: inputText,
+  number: props => (
+    <input
+      className="input-text__input"
+      type="number"
+      {...props}
+    />
+  ),
+  date: props => (
+    <input type="date" className="input-text__input" {...props} />
+  )
+}
 
 export default class Input extends Component {
   static propTypes = {
     label: PropTypes.string,
-    type: PropTypes.oneOf(['input', 'textarea', 'number']),
+    type: PropTypes.oneOf(['input', 'textarea', 'number', 'date']),
     style: PropTypes.shape({
       container: PropTypes.shape({}),
     })
@@ -24,22 +55,8 @@ export default class Input extends Component {
   }
 
   render() {
-    const { label, type, style, ...rest } = this.props
-
-    const inputElm = type === 'textarea' ? (
-      <textarea
-        className="input-text__input"
-        cols="5"
-        rows="10"
-        {...rest}
-      />
-    ) : (
-      <input
-        className="input-text__input"
-        type={type || 'text'}
-        {...rest}
-      />
-    )
+    const { label, type = 'text', style, ...rest } = this.props
+    const inputElm = input[type]({...rest })
 
     return (
       <div style={style} className="input-text">
