@@ -6,6 +6,7 @@ import Input     from 'components/Input'
 const AffectedSystemEvolution = () => {
   const getRowStyles = () => ({
     display: 'flex',
+    justifyContent: 'space-between',
   })
 
   const getInputStyle = (length) => ({

@@ -8,7 +8,7 @@ import PhysicalExamination     from './PhysicalExamination'
 import AffectedSystemEvolution from './AffectedSystemEvolution'
 import DiagnosticImpression    from './DiagnosticImpression'
 import TherapeuticPlan         from './TherapeuticPlan'
-import DiagnosticAidOrdered    from './DiagnosticAidOrdered'
+import AdditionalInformation   from './AdditionalInformation'
 
 export default class Root extends Component {
   componentDidMount = () => {
@@ -50,7 +50,7 @@ export default class Root extends Component {
           <TherapeuticPlan />
         </div>
         <div className="clinic-history__fieldset">
-          <DiagnosticAidOrdered />
+          <AdditionalInformation />
         </div>
       </div>
     )
