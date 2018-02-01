@@ -4,14 +4,14 @@ Proceso
 - registro de la historia clinica
 
 Todos 
-- Refactorizar código para dejar de usar InputRow e InputRows components para mejor usabilidad
-
-- calcular edad con la fecha que se seleccione en los datos de identificación
-
 - en el cie10 para cada impresion va un campo desplegable se llama tipo de diagnostico y debe contener las 3 opciones
   1. impresion diagnostica
   2. confirmado nuevo
   3. confirmado repetido
+
+- campo de firma de sello debe ser de tipo file para subir archivos locales
+
+- linter
 
 - login
   - para administrador
@@ -30,3 +30,7 @@ Todos
 - prellenar la información del paciente en la historia clinica con los datos que se pusieron en "/citas"
 
 - login/autenticación de usuario por seguridad
+
+- 30 de enero  => 60 minutos
+- 31 de enero  => 40 minutos
+- 1 de febrero => 30 minutos
