@@ -1,35 +1,24 @@
 import React    from 'react'
-import uuid     from 'uuid/v4'
-import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
+import Row      from 'components/Row'
+import Input    from 'components/Input'
 
 const DiagnosticImpression = () => {
-  const row1 = [{
-    label: 'A. Farmacológico:', id: uuid(), type: 'textarea'
-  }]
-  const row2 = [{
-    label: 'B. No farmacológico:', id: uuid(), type: 'textarea'
-  }]
-  const row3 = [{
-    id: uuid(),
-    label: 'Ayudas diagnósticas ordenadas:',
-    type: 'textarea'
-  }]
-  const row4 = [{
-    label: 'Procedimientos:',
-    type: 'textarea',
-    id: uuid(),
-  }]
-
   return (
-    <div>
-      <Fieldset title="Plan terapéutico:">
-        <InputRow items={row1} />
-        <InputRow items={row2} />
-        <InputRow items={row3} />
-        <InputRow items={row4} />
-      </Fieldset>
-    </div>
+    <Fieldset title="Plan terapéutico:">
+      <Row>
+        <Input label="A. Farmacológico:" type="textarea" />
+      </Row>
+      <Row>
+        <Input label="B. No farmacológico:" type="textarea" />
+      </Row>
+      <Row>
+        <Input label="Ayudas diagnósticas ordenadas:" type="textarea" />
+      </Row>
+      <Row>
+        <Input label="Procedimientos:" type="textarea" />
+      </Row>
+    </Fieldset>
   )
 }
 

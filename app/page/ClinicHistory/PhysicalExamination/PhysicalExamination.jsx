@@ -1,7 +1,6 @@
 import React, {
   Component,
 }                from 'react'
-import InputRows from 'components/InputRow/InputRows'
 import Fieldset  from 'components/Fieldset'
 import Input     from 'components/Input'
 import Row       from 'components/Row'

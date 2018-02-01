@@ -1,29 +1,33 @@
-import React    from 'react'
-import uuid     from 'uuid/v4'
-import InputRows from 'components/InputRow/InputRows'
-import Fieldset from 'components/Fieldset'
+import React, {
+  Component,
+}                from 'react'
+import Fieldset  from 'components/Fieldset'
+import Input     from 'components/Input'
+import Row       from 'components/Row'
 
-const ClinicHistory = () => {
-  const rows = [
-    [{
-    label: 'Historia clinica #:', id: uuid()
-    }, {
-      label: 'Centro de atención', id: uuid()
-    }],
-    [{
-      label: 'Fecha de ingreso', id: uuid(),
-    }, {
-      label: 'Hora', id: uuid(),
-    }]
-  ]
+class ClinicHistory extends Component {
+  getRowStyles = () => {
+    return { display: 'flex' }
+  }
 
-  return (
-    <div>
+  getInputStyle = length => ({
+    width: `${(100 / length) - 1}%`,
+  })
+
+  render() {
+    return (
       <Fieldset title="Historia clinica">
-        <InputRows rows={rows} />
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Historia clinica No:" style={this.getInputStyle(2)} />
+          <Input label="Centro de atención:" style={this.getInputStyle(2)} />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Fecha de ingreso:" style={this.getInputStyle(2)} />
+          <Input label="Hora:" style={this.getInputStyle(2)} />
+        </Row>
       </Fieldset>
-    </div>
-  )
+    )
+  }
 }
 
 export default ClinicHistory

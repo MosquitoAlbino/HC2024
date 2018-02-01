@@ -1,20 +1,15 @@
 import React    from 'react'
-import uuid     from 'uuid/v4'
-import InputRow from 'components/InputRow'
 import Fieldset from 'components/Fieldset'
+import Row      from 'components/Row'
+import Input    from 'components/Input'
 
 const AffectedSystemEvolution = () => {
-  const row1 = [{
-    id: uuid(),
-    type: 'textarea'
-  }]
-
   return (
-    <div>
-      <Fieldset title="Evolución del sistema afectado:">
-        <InputRow items={row1} />
-      </Fieldset>
-    </div>
+    <Fieldset title="Evolución del sistema afectado:">
+      <Row>
+        <Input type="textarea" />
+      </Row>
+    </Fieldset>
   )
 }
 

@@ -1,30 +1,27 @@
 import React     from 'react'
-import uuid      from 'uuid/v4'
-import InputRow  from 'components/InputRow'
-import InputRows from 'components/InputRow/InputRows'
 import Fieldset  from 'components/Fieldset'
+import Row       from 'components/Row'
 import Input     from 'components/Input'
 
 const AffectedSystemEvolution = () => {
-  const rows = [
-    [{
-      label: 'Nombre del medico:',
-      id: uuid(),
-    }, {
-      label: 'Registro',
-      id: uuid(),
-    }], [{
-      label: 'Firma de sello:',
-      id: uuid(),
-    }]
-  ]
+  const getRowStyles = () => ({
+    display: 'flex',
+  })
+
+  const getInputStyle = (length) => ({
+    width: `${(100 / length) - 1}%`,
+  })
 
   return (
-    <div>
-      <Fieldset title="Información adicional:">
-        <InputRows rows={rows} />
-      </Fieldset>
-    </div>
+    <Fieldset title="Información adicional:">
+      <Row style={getRowStyles()}>
+        <Input label="Nombre del medico:" style={getInputStyle(2)} />
+        <Input label="Registro:" style={getInputStyle(2)} />
+      </Row>
+      <Row>
+        <Input label="Firma de sello:" />
+      </Row>
+    </Fieldset>
   )
 }
 

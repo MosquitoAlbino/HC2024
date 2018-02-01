@@ -1,59 +1,55 @@
-import React     from 'react'
-import uuid      from 'uuid/v4'
-import InputRows from 'components/InputRow/InputRows'
+import React, {
+  Component,
+}                from 'react'
 import Fieldset  from 'components/Fieldset'
+import Input     from 'components/Input'
+import Row       from 'components/Row'
 
-const Record = () => {
-  const rows = [
-    [{
-      label: 'Gravida:', id: uuid(),
-    }, {
-      label: 'Parto:', id: uuid(),
-    }, {
-      label: 'Aborto:', id: uuid(),
-    }, {
-      label: 'Cesarea:', id: uuid(),
-    }, {
-      label: 'Hijos vivos:', id: uuid(),
-    }],
-    [{
-      label: 'Menarquia:', id: uuid(),
-    }, {
-      label: 'FUM:', id: uuid(),
-    }, {
-      label: 'Vida marital:', id: uuid(),
-    }, {
-      label: 'Vida sexual:', id: uuid(),
-    }, {
-      label: 'Vida obstetrica:', id: uuid(),
-    }],
-    [{
-      label: 'Médicos:', id: uuid(),
-    }],
-    [{
-      label: 'Qirurgicos:', id: uuid(),
-    }],
-    [{
-      label: 'Alérgicos:', id: uuid()
-    }],
-    [{
-      label: 'Traumáticos:', id: uuid(),
-    }],
-    [{
-      label: 'Familiares:', id: uuid(),
-    }],
-    [{
-      label: 'Otros:', id: uuid(),
-    }],
-  ]
+export default class Record extends Component {
+  getRowStyles = () => {
+    return { display: 'flex' }
+  }
 
-  return (
-    <div>
+  getInputStyle = length => ({
+    width: `${(100 / length) - 1}%`,
+  })
+
+  render() {
+    return (
       <Fieldset title="Antecedentes personales:">
-        <InputRows rows={rows} />
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Gravida:" style={this.getInputStyle(5)} />
+          <Input label="Parto:" style={this.getInputStyle(5)} />
+          <Input label="Aborto:" style={this.getInputStyle(5)} />
+          <Input label="Cesarea:" style={this.getInputStyle(5)} />
+          <Input label="Hijos vivos:" style={this.getInputStyle(5)} />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Menarquia:" style={this.getInputStyle(5)} />
+          <Input label="FUM:" style={this.getInputStyle(5)} />
+          <Input label="Vida marital:" style={this.getInputStyle(5)} />
+          <Input label="Vida sexual:" style={this.getInputStyle(5)} />
+          <Input label="Vida obstetrica:" style={this.getInputStyle(5)} />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Médicos:" />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Qirurgicos:" />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Alérgicos:" />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Traumáticos:" />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Familiares:" />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Otros:" />
+        </Row>
       </Fieldset>
-    </div>
-  )
+    )
+  }
 }
-
-export default Record
