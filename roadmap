@@ -4,10 +4,7 @@ Proceso
 - registro de la historia clinica
 
 Todos 
-- en el cie10 para cada impresion va un campo desplegable se llama tipo de diagnostico y debe contener las 3 opciones
-  1. impresion diagnostica
-  2. confirmado nuevo
-  3. confirmado repetido
+- tipo de diagnostico agregado a impresion diagnostica
 
 - campo de firma de sello debe ser de tipo file para subir archivos locales
 
@@ -34,3 +31,4 @@ Todos
 - 30 de enero  => 60 minutos
 - 31 de enero  => 40 minutos
 - 1 de febrero => 30 minutos
+- 3 de febrero => 30 minutos

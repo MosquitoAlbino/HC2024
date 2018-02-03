@@ -137,28 +137,41 @@ body {
 }
 
 .diagnostic-impression-item__code {
-  width: calc(45% - 1rem);
+  width: calc(35% - 1rem);
 }
 
 .diagnostic-impression-item__name {
-  width: calc(45% - 1rem);
+  width: calc(35% - 1rem);
+}
+
+.diagnostic-impression-item__type-container {
+  width: calc(20% - 1rem);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.diagnostic-impression-item__type {
+  width: 100%;
+  height: 26px;
 }
 
 .diagnostic-impression-item__close-container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   width: 10%;
 }
 
 .diagnostic-impression-item__close {
   width: 100%;
-  height: 100%;
+  padding: 0.4rem;
   border-radius: 4px;
-  background-color: rgb(202, 86, 86);
-  border: 1px solid black;
+  background-color: rgb(170, 52, 52);
   color: white;
   text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.3);
 }
 
 .home {

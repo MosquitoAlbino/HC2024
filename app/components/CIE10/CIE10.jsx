@@ -77,7 +77,7 @@ export default class CIE10 extends Component {
         </div>
         {
           cie10Rows.length ? (
-            <h4>Impresiones</h4>
+            <h4>Impresiones:</h4>
           ) : null
         }
         <div>{cie10Rows}</div>
