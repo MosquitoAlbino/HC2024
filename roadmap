@@ -4,8 +4,6 @@ Proceso
 - registro de la historia clinica
 
 Todos 
-- tipo de diagnostico agregado a impresion diagnostica
-
 - campo de firma de sello debe ser de tipo file para subir archivos locales
 
 - linter
@@ -27,8 +25,3 @@ Todos
 - prellenar la información del paciente en la historia clinica con los datos que se pusieron en "/citas"
 
 - login/autenticación de usuario por seguridad
-
-- 30 de enero  => 60 minutos
-- 31 de enero  => 40 minutos
-- 1 de febrero => 30 minutos
-- 3 de febrero => 30 minutos
