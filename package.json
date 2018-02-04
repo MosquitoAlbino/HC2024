@@ -8,7 +8,7 @@
     "start": "parcel ./app/index.html",
     "copy-files": "cp ./app/index.html ./build/ && cp ./app/styles.css ./build",
     "build": "parcel build ./app/index.js -d build/ && npm run copy-files",
-    "deploy": "npm run build && cd ./build/ && surge -d http://imir-clinic-history-new.surge.sh/"
+    "deploy": "npm run build && cd ./build/ && surge -d http://imir-clinic-history.surge.sh/"
   },
   "repository": {
     "type": "git",
