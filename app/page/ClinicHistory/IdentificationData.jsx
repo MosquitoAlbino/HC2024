@@ -4,6 +4,7 @@ import React, {
 import Fieldset  from 'components/Fieldset'
 import Input     from 'components/Input'
 import Row       from 'components/Row'
+import moment    from 'moment'
 
 export default class IdentificationData extends Component {
   state = {
@@ -11,8 +12,8 @@ export default class IdentificationData extends Component {
     age: '',
   }
 
-  handleBirthdayChange = (event) => {
-    this.setState({ birthday: event.target.value })
+  handleBirthdayChange = (birthday) => {
+    this.setState({ birthday })
   }
 
   getRowStyles = () => {
@@ -25,13 +26,7 @@ export default class IdentificationData extends Component {
 
   calcAge = (birthday) => {
     if (!birthday) return
-
-    const milisecondsToYears = (miliseconds) => (
-      (miliseconds / 1000 / 60 / 60 / 24 / 365.25).toFixed(0)
-    )
-    const birthdayDate = new Date(birthday)
-    const now = new Date(Date.now())
-    const age = milisecondsToYears(now.getTime() - birthdayDate.getTime())
+    const age = moment().diff(birthday, 'years', false)
     return age
   }
 

@@ -110,6 +110,15 @@ body {
   outline: none;
 }
 
+.input-date-wrapper {
+
+}
+
+.input-date-wrapper .react-datepicker-wrapper,
+.input-date-wrapper .react-datepicker__input-container {
+  width: 100%;
+}
+
 .fieldset {
   border: none;
   margin: 0;

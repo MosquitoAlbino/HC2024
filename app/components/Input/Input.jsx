@@ -2,6 +2,8 @@ import React, {
   Component,
 }                from 'react'
 import PropTypes from 'prop-types'
+import moment    from 'moment'
+import InputDate from './InputDate'
 
 const inputText = props => (
   <input
@@ -30,7 +32,12 @@ const input = {
     />
   ),
   date: props => (
-    <input type="date" className="input-text__input" {...props} />
+    <InputDate
+      maxDate={moment()}
+      className="input-text__input"
+      wrapperClassName="input-date-wrapper"
+      {...props}
+    />
   )
 }
 
