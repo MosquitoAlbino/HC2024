@@ -4,6 +4,8 @@ Proceso
 - registro de la historia clinica
 
 Todos 
+- los campos: ayudas diagnósticas y medicamentos deben ser dinámicos
+
 - campo de firma de sello debe ser de tipo file para subir archivos locales
 
 - guardar en base de datos
