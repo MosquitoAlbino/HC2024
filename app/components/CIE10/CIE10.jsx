@@ -17,7 +17,8 @@ export default class CIE10 extends Component {
   }
 
   handleChange = (event) => {
-    const value = event.target.value
+    let value = event.target.value || ''
+    value = value.toLowerCase()
 
     if (value.length < this.MIN_CHARACTERS) return
 
