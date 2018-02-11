@@ -6,14 +6,12 @@ Proceso
 Todos 
 - campo de firma de sello debe ser de tipo file para subir archivos locales
 
-- linter
+- guardar en base de datos
 
 - login
   - para administrador
   - para citas
   - para médicos
-
-- guardar en base de datos
 
 - investigar pos (plan obligatorio de salud)
   - buscar pos2015 json
@@ -25,3 +23,4 @@ Todos
 - prellenar la información del paciente en la historia clinica con los datos que se pusieron en "/citas"
 
 - login/autenticación de usuario por seguridad
+- linter

@@ -11,7 +11,9 @@ class Match extends Component {
 
     return (
       <button className="cie10-match" onClick={(e) => handleCIE10ItemClick({...item})}>
-        <p className="cie10-match__index">0</p>
+        <p className="cie10-match__index">
+          {item.index}
+        </p>
         <p className="cie10-match__code">
           {item.code}
         </p>
@@ -25,7 +27,12 @@ class Match extends Component {
 
 export default class MatchList extends Component {
   render() {
-    const { matches, handleCIE10ItemClick } = this.props
+    const {
+      matches,
+      handleCIE10ItemClick,
+      show,
+      handleClose,
+    } = this.props
     const matchElms = matches.map((match) => (
       <Match
         item={match}
@@ -35,8 +42,19 @@ export default class MatchList extends Component {
     ))
 
     return (
-      <div className="diagnostic-impression__matches">
-        {matchElms}
+      <div
+        style={{ display: show ? 'block' : 'none' }}
+        className="diagnostic-impression__matches-container"
+      >
+        <div className="diagnostic-impression__matches">
+          {matchElms}
+        </div>
+        <button
+          onClick={() => handleClose(false)}
+          className="diagnostic-impression__matches-close"
+        >
+          x
+        </button>
       </div>
     )
   }

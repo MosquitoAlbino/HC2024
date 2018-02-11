@@ -8,7 +8,6 @@ import CIE10Row  from './CIE10Row'
 
 export default class CIE10 extends Component {
   MIN_CHARACTERS = 3
-  MAX_MATCHES = 8
 
   state = {
     filteredCIE10: [],
@@ -31,8 +30,7 @@ export default class CIE10 extends Component {
 
         return cie10keyContainValue || cie10ValueContainValue
       })
-      .map(cie10Item => ({ code: cie10Item.c, name: cie10Item.d }))
-      .take(this.MAX_MATCHES)
+      .map((cie10Item, index) => ({ code: cie10Item.c, name: cie10Item.d, index }))
       .value()
 
     this.setState({ filteredCIE10, showMatchList: true })
@@ -44,7 +42,8 @@ export default class CIE10 extends Component {
       cie10Item,
     ]
 
-    this.setState({ CIE10AddedItems, showMatchList: false })
+    this.setState({ CIE10AddedItems })
+    this.handleMatchexBoxClose(false)
   }
 
   handleDelete = (itemToDelete) => {
@@ -54,6 +53,10 @@ export default class CIE10 extends Component {
       })
     )
     this.setState({ CIE10AddedItems: newAddedItems })
+  }
+
+  handleMatchexBoxClose = (show) => {
+    this.setState({ showMatchList: show })
   }
 
   render() {
@@ -70,12 +73,12 @@ export default class CIE10 extends Component {
     return (
       <div className="diagnostic-impression">
         <Input onInput={this.handleChange} label="Buscar" />
-        <div style={{ display: this.state.showMatchList ? 'block' : 'none' }}>
-          <MatchList
-            matches={this.state.filteredCIE10}
-            handleCIE10ItemClick={this.handleCIE10ItemClick}
-          />
-        </div>
+        <MatchList
+          matches={this.state.filteredCIE10}
+          handleCIE10ItemClick={this.handleCIE10ItemClick}
+          show={this.state.showMatchList}
+          handleClose={this.handleMatchexBoxClose}
+        />
         {
           cie10Rows.length ? (
             <h4>Impresiones:</h4>
