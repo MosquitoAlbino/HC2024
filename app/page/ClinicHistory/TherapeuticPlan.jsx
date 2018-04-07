@@ -10,13 +10,13 @@ const DiagnosticImpression = () => {
         <Input label="A. Farmacológico:" type="textarea" />
       </Row>
       <Row>
-        <Input label="B. No farmacológico:" type="textarea" />
+        <Input label="B. No farmacológico:" type="textarea" rows="5" />
       </Row>
       <Row>
-        <Input label="Ayudas diagnósticas ordenadas:" type="textarea" />
+        <Input label="Ayudas diagnósticas ordenadas:" type="textarea" rows="5" />
       </Row>
       <Row>
-        <Input label="Procedimientos:" type="textarea" />
+        <Input label="Procedimientos:" type="textarea" rows="5" />
       </Row>
     </Fieldset>
   )

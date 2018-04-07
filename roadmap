@@ -3,7 +3,23 @@ Proceso
 - facturación
 - registro de la historia clinica
 
-Todos 
+Todos
+{
+	"A. farmacologico": "Medicamentos IPS.xls, google docs",
+	"Procedimientos": "Procedimientos IMIR ALEPH IPS, local",
+	"Ayudas diagnósticas ordenadas": "Ayudas Diagnósticas IMIR ALEPH IPS.xls, local",
+}
+agregar campo "Rsultados paraclinicos:" encima de "Impresión diagnóstica:"
+
+darle al campo "Médicos:" dos lineas
+quitar "historia clinica repetido"
+disminuír los labels en tablet a 0.7rem
+partir el campo "T. ARTERIAL MMHG:" en dos
+"Carnet No:" debe ser igual a y ambos deben ser editables "Historia clinica No:"
+quitar "Vida marital:" e intercambiar "Vida sexual:" por "VS:"
+agregar historia clinica de control
+
+
 - los campos: ayudas diagnósticas y medicamentos deben ser dinámicos
 
 - campo de firma de sello debe ser de tipo file para subir archivos locales

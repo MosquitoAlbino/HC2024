@@ -63,26 +63,30 @@ export default class PhysicalExamination extends Component {
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input
-            label="T. ARTERIAL MMHG:"
+            label="T/A mmHg:"
             style={this.getInputStyle(4)}
           />
           <Input
-            label="FC:"
+            label="FC lpm:"
             style={this.getInputStyle(4)}
+            type="number"
           />
           <Input
-            label="FR:"
+            label="FR: rpm"
             style={this.getInputStyle(4)}
+            type="number"
           />
           <Input
-            label="Temperatura:"
+            label="Temperatura °C:"
             style={this.getInputStyle(4)}
+            type="number"
           />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input
-            label="Pulso:"
+            label="Pulso lpm:"
             style={this.getInputStyle(4)}
+            type="number"
           />
           <Input
             label="Peso:"

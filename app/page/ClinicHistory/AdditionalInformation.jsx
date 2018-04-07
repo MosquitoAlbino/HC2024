@@ -17,7 +17,7 @@ const AffectedSystemEvolution = () => {
     <Fieldset title="Información adicional:">
       <Row style={getRowStyles()}>
         <Input label="Nombre del medico:" style={getInputStyle(2)} />
-        <Input label="Registro:" style={getInputStyle(2)} />
+        <Input label="Registro:" style={getInputStyle(2)} type="number" />
       </Row>
       <Row>
         <Input label="Firma de sello:" />

@@ -640,17 +640,21 @@ body {
 
 .clinic-history__title {
   color: #333;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .clinic-history__fieldset {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .input-row {
-  margin-bottom: 0.5rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.7rem;
+}
+
+.input-row:last-child {
+  margin-bottom: 0;
 }
 
 .input-row__item {
@@ -670,17 +674,16 @@ body {
 .input-text__label {
   margin-top: 0;
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 0.6rem;
   color: #333;
   display: block;
-  margin-bottom: 4px;
 }
 
 .input-text__input {
   width: 100%;
   border: none;
   border-bottom: 1px solid #333;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
 .input-text__input:focus {
@@ -709,7 +712,6 @@ body {
   font-weight: bold;
   padding-bottom: 5px;
   width: 100%;
-  margin-bottom: 1rem;
 }
 
 .fieldset__children {

@@ -18,18 +18,17 @@ export default class Record extends Component {
     return (
       <Fieldset title="Antecedentes personales:">
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Gravida:" style={this.getInputStyle(5)} />
-          <Input label="Parto:" style={this.getInputStyle(5)} />
-          <Input label="Aborto:" style={this.getInputStyle(5)} />
-          <Input label="Cesarea:" style={this.getInputStyle(5)} />
-          <Input label="Hijos vivos:" style={this.getInputStyle(5)} />
+          <Input label="Gravida:" style={this.getInputStyle(5)} type="number" />
+          <Input label="Parto:" style={this.getInputStyle(5)} type="number" />
+          <Input label="Aborto:" style={this.getInputStyle(5)} type="number" />
+          <Input label="Cesarea:" style={this.getInputStyle(5)} type="number" />
+          <Input label="Hijos vivos:" style={this.getInputStyle(5)} type="number" />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Menarquia:" style={this.getInputStyle(5)} />
-          <Input label="FUM:" style={this.getInputStyle(5)} />
-          <Input label="Vida marital:" style={this.getInputStyle(5)} />
-          <Input label="Vida sexual:" style={this.getInputStyle(5)} />
-          <Input label="Vida obstetrica:" style={this.getInputStyle(5)} />
+          <Input label="Menarquia:" style={this.getInputStyle(5)} type="date" />
+          <Input label="FUM:" style={this.getInputStyle(5)} type="date" />
+          <Input label="VM:" style={this.getInputStyle(5)} type="number" />
+          <Input label="VO:" style={this.getInputStyle(5)} type="number" />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input label="Médicos:" />

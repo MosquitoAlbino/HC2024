@@ -39,33 +39,31 @@ export default class IdentificationData extends Component {
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input
-            label="Fecha de nacimiento:"
+            label="F. nac:"
             type="date"
-            style={this.getInputStyle(3)}
+            style={this.getInputStyle(7)}
             onChange={this.handleBirthdayChange}
           />
           <Input
             label="Edad:"
             value={this.calcAge(this.state.birthday)}
-            style={this.getInputStyle(3)}
+            style={this.getInputStyle(7)}
           />
-          <Input label="Sexo:" style={this.getInputStyle(3)} />
+          <Input label="Sexo:" style={this.getInputStyle(7)} />
+          <Input label="Tipo ID:" style={this.getInputStyle(7)} />
+          <Input label="No." style={this.getInputStyle(7)} type="number" />
+          <Input label="E. civil:" style={this.getInputStyle(7)} />
+          <Input label="Ocupación:" style={this.getInputStyle(7)} />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Tipo de identificación:" style={this.getInputStyle(3)} />
-          <Input label="No." style={this.getInputStyle(3)} />
-          <Input label="Estado civil:" style={this.getInputStyle(3)} />
-        </Row>
-        <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Ocupación:" style={this.getInputStyle(2)} />
-          <Input label="Dirección:" style={this.getInputStyle(2)} />
-        </Row>
-        <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Teléfono:" style={this.getInputStyle(2)} />
+          <Input label="Teléfono:" style={this.getInputStyle(2)} type="number" />
           <Input label="Aseguradora:" style={this.getInputStyle(2)} />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Carnet No:" style={this.getInputStyle(2)} />
+          <Input label="Dirección:" style={this.getInputStyle(1)} />
+        </Row>
+        <Row className="input-row" style={this.getRowStyles()}>
+          <Input label="Carnet No:" style={this.getInputStyle(2)} type="number" />
           <Input label="Regimen:" style={this.getInputStyle(2)} />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
@@ -74,12 +72,17 @@ export default class IdentificationData extends Component {
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input label="Dirección:" style={this.getInputStyle(4)} />
-          <Input label="Teléfono:" style={this.getInputStyle(4)} />
+          <Input label="Teléfono:" style={this.getInputStyle(4)} type="number" />
           <Input label="Raza:" style={this.getInputStyle(4)} />
           <Input label="Nivel educativo:" style={this.getInputStyle(4)} />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Motivo de consulta:" type="textarea" style={this.getInputStyle(1)} />
+          <Input
+            label="Motivo de consulta:"
+            type="textarea"
+            style={this.getInputStyle(1)}
+            rows="2"
+          />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input label="Enfermedad actual:" type="textarea" style={this.getInputStyle(1)} />
