@@ -1,16 +1,20 @@
+600 x 976 resolucion de la tablet de Imir
+
 Proceso
 - asignación de citas
 - facturación
 - registro de la historia clinica
 
-Todos
+TODO's
+
+Historia clinica No: y id No. deben tener el mismo valor y ser editables
 {
 	"A. farmacologico": "Medicamentos IPS.xls, google docs",
 	"Procedimientos": "Procedimientos IMIR ALEPH IPS, local",
 	"Ayudas diagnósticas ordenadas": "Ayudas Diagnósticas IMIR ALEPH IPS.xls, local",
 }
 agregar campo "Rsultados paraclinicos:" encima de "Impresión diagnóstica:"
-
+agregar campo para tomar foto de anexos
 darle al campo "Médicos:" dos lineas
 quitar "historia clinica repetido"
 disminuír los labels en tablet a 0.7rem
@@ -18,7 +22,6 @@ partir el campo "T. ARTERIAL MMHG:" en dos
 "Carnet No:" debe ser igual a y ambos deben ser editables "Historia clinica No:"
 quitar "Vida marital:" e intercambiar "Vida sexual:" por "VS:"
 agregar historia clinica de control
-
 
 - los campos: ayudas diagnósticas y medicamentos deben ser dinámicos
 

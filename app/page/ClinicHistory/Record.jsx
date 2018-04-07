@@ -25,10 +25,10 @@ export default class Record extends Component {
           <Input label="Hijos vivos:" style={this.getInputStyle(5)} type="number" />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Menarquia:" style={this.getInputStyle(5)} type="date" />
-          <Input label="FUM:" style={this.getInputStyle(5)} type="date" />
-          <Input label="VM:" style={this.getInputStyle(5)} type="number" />
-          <Input label="VO:" style={this.getInputStyle(5)} type="number" />
+          <Input label="Menarquia:" style={this.getInputStyle(4)} type="date" />
+          <Input label="FUM:" style={this.getInputStyle(4)} type="date" />
+          <Input label="VM:" style={this.getInputStyle(4)} type="number" />
+          <Input label="VO:" style={this.getInputStyle(4)} type="number" />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input label="Médicos:" />
