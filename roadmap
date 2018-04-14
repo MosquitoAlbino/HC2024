@@ -11,18 +11,16 @@ Proceso
 --------------------------------------------------------------------------------
 TODOs
 --------------------------------------------------------------------------------
-- "Carnet No:" debe ser igual a y ambos deben ser editables "Historia clinica No:"
-- "Carnet No:" and "Historia clinica No:" should be equal and editable
 - Historia clinica No: y id No. deben tener el mismo valor y ser editables
   {
     "A. farmacologico": "Medicamentos IPS.xls, google docs",
     "Procedimientos": "Procedimientos IMIR ALEPH IPS, local",
     "Ayudas diagnósticas ordenadas": "Ayudas Diagnósticas IMIR ALEPH IPS.xls, local",
   }
+- los campos: ayudas diagnósticas y medicamentos deben ser dinámicos
 - agregar campo "Resultados paraclinicos:" encima de "Impresión diagnóstica:"
 - agregar campo para tomar foto de anexos
 - agregar historia clinica de control
-- los campos: ayudas diagnósticas y medicamentos deben ser dinámicos
 - campo de firma de sello debe ser de tipo file para subir archivos locales
 - guardar en base de datos
 - login
@@ -39,3 +37,7 @@ TODOs
 - login/autenticación de usuario por seguridad
 - linter
 --------------------------------------------------------------------------------
+
+DONE
+
+"Carnet No:" debe ser igual a y ambos deben ser editables "Historia clinica No:"
