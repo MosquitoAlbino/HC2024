@@ -27,7 +27,13 @@ class ClinicHistory extends Component {
     return (
       <Fieldset title="Historia clinica">
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Historia clinica No:" style={this.getInputStyle(4)} type="number" />
+          <Input
+            label="Historia clinica No:"
+            style={this.getInputStyle(4)}
+            type="number"
+            value={this.props.patientID}
+            onChange={this.props.onChangePatientID}
+          />
           <Input label="Centro de atención:" style={this.getInputStyle(4)} />
           <Input
             label="Fecha de ingreso:"

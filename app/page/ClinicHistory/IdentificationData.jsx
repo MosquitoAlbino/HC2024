@@ -51,7 +51,13 @@ export default class IdentificationData extends Component {
           />
           <Input label="Sexo:" style={this.getInputStyle(7)} />
           <Input label="Tipo ID:" style={this.getInputStyle(7)} />
-          <Input label="No." style={this.getInputStyle(7)} type="number" />
+          <Input
+            label="No."
+            style={this.getInputStyle(7)}
+            type="number"
+            value={this.props.patientID}
+            onChange={this.props.onChangePatientID}
+          />
           <Input label="E. civil:" style={this.getInputStyle(7)} />
           <Input label="Ocupación:" style={this.getInputStyle(7)} />
         </Row>

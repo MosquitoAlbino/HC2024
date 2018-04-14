@@ -31,7 +31,7 @@ export default class Record extends Component {
           <Input label="VO:" style={this.getInputStyle(4)} type="number" />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
-          <Input label="Médicos:" />
+          <Input label="Médicos:" type="textarea" rows="2" />
         </Row>
         <Row className="input-row" style={this.getRowStyles()}>
           <Input label="Qirurgicos:" />

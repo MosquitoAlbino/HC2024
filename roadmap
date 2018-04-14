@@ -1,47 +1,41 @@
 600 x 976 resolucion de la tablet de Imir
 
+--------------------------------------------------------------------------------
 Proceso
+--------------------------------------------------------------------------------
 - asignación de citas
 - facturación
 - registro de la historia clinica
+--------------------------------------------------------------------------------
 
-TODO's
-
-Historia clinica No: y id No. deben tener el mismo valor y ser editables
-{
-	"A. farmacologico": "Medicamentos IPS.xls, google docs",
-	"Procedimientos": "Procedimientos IMIR ALEPH IPS, local",
-	"Ayudas diagnósticas ordenadas": "Ayudas Diagnósticas IMIR ALEPH IPS.xls, local",
-}
-agregar campo "Rsultados paraclinicos:" encima de "Impresión diagnóstica:"
-agregar campo para tomar foto de anexos
-darle al campo "Médicos:" dos lineas
-quitar "historia clinica repetido"
-disminuír los labels en tablet a 0.7rem
-partir el campo "T. ARTERIAL MMHG:" en dos
-"Carnet No:" debe ser igual a y ambos deben ser editables "Historia clinica No:"
-quitar "Vida marital:" e intercambiar "Vida sexual:" por "VS:"
-agregar historia clinica de control
-
+--------------------------------------------------------------------------------
+TODOs
+--------------------------------------------------------------------------------
+- "Carnet No:" debe ser igual a y ambos deben ser editables "Historia clinica No:"
+- "Carnet No:" and "Historia clinica No:" should be equal and editable
+- Historia clinica No: y id No. deben tener el mismo valor y ser editables
+  {
+    "A. farmacologico": "Medicamentos IPS.xls, google docs",
+    "Procedimientos": "Procedimientos IMIR ALEPH IPS, local",
+    "Ayudas diagnósticas ordenadas": "Ayudas Diagnósticas IMIR ALEPH IPS.xls, local",
+  }
+- agregar campo "Resultados paraclinicos:" encima de "Impresión diagnóstica:"
+- agregar campo para tomar foto de anexos
+- agregar historia clinica de control
 - los campos: ayudas diagnósticas y medicamentos deben ser dinámicos
-
 - campo de firma de sello debe ser de tipo file para subir archivos locales
-
 - guardar en base de datos
-
 - login
   - para administrador
   - para citas
   - para médicos
-
 - investigar pos (plan obligatorio de salud)
   - buscar pos2015 json
   - campos
     - medicamento
     - cantidad
     - uso
-
 - prellenar la información del paciente en la historia clinica con los datos que se pusieron en "/citas"
-
 - login/autenticación de usuario por seguridad
 - linter
+--------------------------------------------------------------------------------

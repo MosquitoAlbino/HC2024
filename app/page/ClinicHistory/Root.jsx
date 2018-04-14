@@ -11,6 +11,9 @@ import TherapeuticPlan         from './TherapeuticPlan'
 import AdditionalInformation   from './AdditionalInformation'
 
 export default class Root extends Component {
+  state = {
+    patientID: '',
+  }
   componentDidMount = () => {
     import('../../data/cie10-array.json')
       .then((cie10DB) => {
@@ -22,6 +25,10 @@ export default class Root extends Component {
       })
   }
 
+  onChangePatientID = (event) => {
+    this.setState({ patientID: event.target.value })
+  }
+
   render() {
     return (
       <div className="clinic-history">
@@ -29,10 +36,16 @@ export default class Root extends Component {
           IMIR ALEPH IPS
         </h1>
         <div className="clinic-history__fieldset">
-          <ClinicHistory />
+          <ClinicHistory
+            patientID={this.state.patientID}
+            onChangePatientID={this.onChangePatientID}
+          />
         </div>
         <div className="clinic-history__fieldset">
-          <IdentificationData />
+          <IdentificationData
+            patientID={this.state.patientID}
+            onChangePatientID={this.onChangePatientID}
+          />
         </div>
         <div className="clinic-history__fieldset">
           <Record />
