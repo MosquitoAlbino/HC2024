@@ -32,6 +32,7 @@ export default class InputDate extends React.Component {
           showMonthDropdown
           showYearDropdown
           dropdownMode="select"
+          popperPlacement="auto-right"
           {...restProps}
         />
       </div>

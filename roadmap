@@ -17,8 +17,6 @@ TODOs
     "Procedimientos": "Procedimientos IMIR ALEPH IPS, local",
     "Ayudas diagnósticas ordenadas": "Ayudas Diagnósticas IMIR ALEPH IPS.xls, local",
   }
-- los campos: ayudas diagnósticas y medicamentos deben ser dinámicos
-- agregar campo "Resultados paraclinicos:" encima de "Impresión diagnóstica:"
 - agregar campo para tomar foto de anexos
 - agregar historia clinica de control
 - campo de firma de sello debe ser de tipo file para subir archivos locales
@@ -37,7 +35,7 @@ TODOs
 - login/autenticación de usuario por seguridad
 - linter
 --------------------------------------------------------------------------------
+- día/mes/año
+- mejorar el campo de edad.
 
 DONE
-
-"Carnet No:" debe ser igual a y ambos deben ser editables "Historia clinica No:"

@@ -1,0 +1,2618 @@
+[
+  {
+    "id": 230100,
+    "description": "EXODONCIA DE DIENTES PERMANENTES SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 230101,
+    "description": "EXODONCIA DE DIENTE PERMANENTE UNIRRADICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 230102,
+    "description": "EXODONCIA DE DIENTE PERMANENTE MULTIRRADICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 230200,
+    "description": "EXODONCIA DE DIENTES TEMPORALES SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 230201,
+    "description": "EXODONCIA DE DIENTE TEMPORAL UNIRRADICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "230202 EXODONCIA DE DIENTE TEMPORAL MULTIRRADICULAR",
+    "description": 1,
+    "complexity": "-",
+    "clarification": ""
+  },
+  {
+    "id": 232100,
+    "description": "OBTURACIÓN DENTAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 232101,
+    "description": "OBTURACIÓN DENTAL CON AMALGAMA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 232102,
+    "description": "OBTURACIÓN DENTAL CON RESINA DE FOTOCURADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 232103,
+    "description": "OBTURACIÓN DENTAL CON IONÓMERO DE VIDRIO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 232200,
+    "description": "OBTURACION TEMPORAL POR DIENTE SOD",
+    "complexity": 1,
+    "clarification": "Se consideran como una acción intermedia que forma parte de la integralidad del procedimiento de operatoria dental."
+  },
+  {
+    "id": 232401,
+    "description": "RECONSTRUCCION DE ÁNGULO INCISAL CON RESINA DE FOTOCURADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 232402,
+    "description": "RECONSTRUCCION TERCIO INCISAL CON RESINA DE FOTOCURADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 237301,
+    "description": "TERAPIA DE CONDUCTO RADICULAR EN DIENTE UNIRRADICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 237302,
+    "description": "TERAPIA DE CONDUCTO RADICULAR EN DIENTE BIRRADICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 237303,
+    "description": "TERAPIA DE CONDUCTO RADICULAR EN DIENTE MULTIRRADICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 237304,
+    "description": "TERAPIA DE CONDUCTO RADICULAR EN DIENTE TEMPORAL UNIRRA-DICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 237305,
+    "description": "TERAPIA DE CONDUCTO RADICULAR EN DIENTE TEMPORAL MULTI-RRADICULAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "C00017",
+    "description": "TOPICACION DE FLUOR EN BARNIZ",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 972200,
+    "description": "SUSTITUCION DE TAPON DENTAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870003,
+    "description": "RADIOGRAFIA DE BASE DE CRANEO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870004,
+    "description": "RADIOGRAFIA DE SILLA TURCA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870101,
+    "description": "RADIOGRAFIA DE CARA (PERFILOGRAMA)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870102,
+    "description": "RADIOGRAFIA DE ORBITAS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870103,
+    "description": "RADIOGRAFIA DE AGUJEROS OPTICOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870104,
+    "description": "RADIOGRAFIA DE MALAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870105,
+    "description": "RADIOGRAFIA DE ARCO CIGOMATICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870107,
+    "description": "RADIOGRAFIA DE HUESOS NASALES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870108,
+    "description": "RADIOGRAFIA DE SENOS PARANASALES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870112,
+    "description": "RADIOGRAFIA DE MAXILAR SUPERIOR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870113,
+    "description": "RADIOGRAFIA DE MAXILAR INFERIOR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870131,
+    "description": "RADIOGRAFIA DE ARTICULACION TEMPOROMAXILAR (ATM)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870440,
+    "description": "RADIOGRAFIAS INTRAORALES OCLUSALES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870450,
+    "description": "RADIOGRAFIAS INTRAORALES PERIAPICALES MILIMETRADAS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870451,
+    "description": "RADIOGRAFIAS INTRAORALES PERIAPICALES DIENTES ANTERIORES SUPERIORES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870452,
+    "description": "RADIOGRAFIAS INTRAORALES PERIAPICALES DIENTES ANTERIORES INFERIORES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870453,
+    "description": "RADIOGRAFIAS INTRAORALES PERIAPICALES ZONA DE CANINOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870454,
+    "description": "RADIOGRAFIAS INTRAORALES PERIAPICALES PREMOLARES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870455,
+    "description": "RADIOGRAFIAS INTRAORALES PERIAPICALES MOLARES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870456,
+    "description": "RADIOGRAFIAS INTRAORALES PERIAPICALES JUEGO COMPLETO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 870460,
+    "description": "RADIOGRAFIAS INTRAORALES CORONALES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871010,
+    "description": "RADIOGRAFIA DE COLUMNA CERVICAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871020,
+    "description": "RADIOGRAFIA DE COLUMNA TORACICA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871030,
+    "description": "RADIOGRAFIA DE COLUMNA DORSOLUMBAR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871040,
+    "description": "RADIOGRAFIA DE COLUMNA LUMBOSACRA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871050,
+    "description": "RADIOGRAFIA DE SACRO COCCIX",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871091,
+    "description": "RADIOGRAFIA DE ARTICULACIONES SACROILIACAS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871111,
+    "description": "RADIOGRAFIA DE REJA COSTAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871112,
+    "description": "RADIOGRAFIA DE ESTERNON",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871121,
+    "description": "RADIOGRAFIA DE TORAX (PA O AP Y LATERAL , DECUBITO LATERAL, OBLICUAS O LATERAL CON BARIO)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 871129,
+    "description": "RADIOGRAFIA DE ARTICULACIONES ESTERNOCLAVICULARES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 872002,
+    "description": "RADIOGRAFIA DE ABDOMEN SIMPLE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 873111,
+    "description": "RADIOGRAFIA DE OMOPLATO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 873112,
+    "description": "RADIOGRAFIA DE CLAVICULA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 873121,
+    "description": "RADIOGRAFIA DE HUMERO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 873122,
+    "description": "RADIOGRAFIA DE ANTEBRAZO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 873204,
+    "description": "RADIOGRAFIA DE HOMBRO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 873205,
+    "description": "RADIOGRAFIA DE CODO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 873206,
+    "description": "RADIOGRAFIA DE MUÑECA",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873210,
+    "description": "RADIOGRAFIA DE DEDOS EN MANO",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873312,
+    "description": "RADIOGRAFIA DE FEMUR AP Y LATERAL",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873313,
+    "description": "RADIOGRAFIA DE PIERNA AP Y LATERAL",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873333,
+    "description": "RADIOGRAFIA DE PIE AP Y LATERAL",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873335,
+    "description": "RADIOGRAFIA DE CALCANEO AXIAL Y LATERAL",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873340,
+    "description": "RADIOGRAFIA DE MIEMBRO INFERIOR AP Y LATERAL",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873420,
+    "description": "RADIOGRAFIA DE RODILLA AP",
+    "complexity": "LATERAL",
+    "clarification": 1
+  },
+  {
+    "id": 873424,
+    "description": "RADIOGRAFIA TANGENCIAL DE ROTULA",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 873431,
+    "description": "RADIOGRAFIA DE TOBILLO AP LATERAL Y ROTACION INTERNA",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 881431,
+    "description": "ULTRASONOGRAFÍA OBSTETRICA TRANSABDOMINAL",
+    "complexity": 1,
+    "clarification": ""
+  },
+  {
+    "id": 890101,
+    "description": "ATENCION [VISITA] DOMICILIARIA, POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890103,
+    "description": "ATENCION [VISITA] DOMICILIARIA, POR ODONTOLOGIA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890105,
+    "description": "ATENCION [VISITA] DOMICILIARIA, POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890108,
+    "description": "ATENCION [VISITA] DOMICILIARIA, POR PSICOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890112,
+    "description": "ATENCION [VISITA] DOMICILIARIA, POR TERAPIA RESPIRATORIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890114,
+    "description": "ATENCION [VISITA] DOMICILIARIA, POR PROMOTOR DE LA SALUD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890201,
+    "description": "CONSULTA DE PRIMERA VEZ POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890203,
+    "description": "CONSULTA DE PRIMERA VEZ POR ODONTOLOGIA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890205,
+    "description": "CONSULTA DE PRIMERA VEZ POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890208,
+    "description": "CONSULTA DE PRIMERA VEZ POR PSICOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890301,
+    "description": "CONSULTA DE CONTROL O DE SEGUIMIENTO POR MEDICINA GE-NERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890303,
+    "description": "CONSULTA DE CONTROL O DE SEGUIMIENTO POR ODONTOLOGIA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890305,
+    "description": "CONSULTA DE CONTROL O DE SEGUIMIENTO POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890308,
+    "description": "CONSULTA DE CONTROL O DE SEGUIMIENTO POR PSICOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890501,
+    "description": "PARTICIPACION EN JUNTA MEDICA, POR MEDICINA GENERAL Y CASO (PACIENTE)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890601,
+    "description": "CUIDADO (MANEJO) INTRAHOSPITALARIO POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890605,
+    "description": "ASISTENCIA INTRAHOSPITALARIA POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890701,
+    "description": "CONSULTA DE URGENCIAS, POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890703,
+    "description": "CONSULTA DE URGENCIAS, POR ODONTOLOGIA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901001,
+    "description": "ANTIBIOGRAMA (DISCO)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901003,
+    "description": "ANTIBIOGRAMA (MIC) METODO MANUAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901101,
+    "description": "COLORACION ACIDO ALCOHOL RESISTENTE [ZIELH-NIELSEN] Y LECTURA O BACILOSCOPIA *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901107,
+    "description": "COLORACION GRAM Y LECTURA PARA CUALQUIER MUESTRA *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901232,
+    "description": "Neisseria gonorrhoeae, CULTIVO *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901235,
+    "description": "UROCULTIVO [ANTIBIOGRAMA DE DISCO]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901236,
+    "description": "UROCULTIVO [ANTIOGRAMA MIC AUTOMÁTICO]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901237,
+    "description": "UROCULTIVO [ANTIOGRAMA MIC MANUAL]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901304,
+    "description": "EXAMEN DIRECTO FRESCO DE CUALQUIER MUESTRA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 901305,
+    "description": "EXAMEN DIRECTO PARA HONGOS [KOH]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902204,
+    "description": "ERITROSEDIMENTACION [VELOCIDAD SEDIMENTACION GLOBULAR - VSG]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902207,
+    "description": "HEMOGRAMA I [HEMOGLOBINA, HEMATOCRITO Y LEUCOGRAMA] MÉTODO MANUAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902208,
+    "description": "HEMOGRAMA II [HEMOGLOBINA, HEMATOCRITO, RECUENTO DE ERITROCITOS, INDICES ERITROCITARIOS, LEUCOGRAMA, RECUENTO DE PLAQUETAS E INDICES PLAQUETARIOS] MÉTODO MANUAL Y SEMIAUTOMATICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902209,
+    "description": "HEMOGRAMA III [HEMOGLOBINA, HEMATOCRITO, RECUENTO DE ERITROCITOS, INDICES ERITROCITARIOS, LEUCOGRAMA, RECUENTO DE PLAQUETAS, INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA] METODO AUTOMÁTICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902210,
+    "description": "HEMOGRAMA IV [HEMOGLOBINA, HEMATOCRITO, RECUENTO DE ERITROCITOS, ÍNDICES ERITROCITARIOS, LEUCOGRAMA, RECUENTO DE PLAQUETAS, INDICES PLAQUETARIOS Y MORFOLOGIA ELECTRONICA E HISTOGRAMA] MÉTODO AUTOMÁTICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902211,
+    "description": "HEMATOCRITO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902212,
+    "description": "HEMOCLASIFICACION GRUPO ABO Y FACTOR Rh",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902213,
+    "description": "HEMOGLOBINA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902214,
+    "description": "HEMOPARASITOS, EXTENDIDO DE GOTA GRUESA *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902215,
+    "description": "HEMOPARASITOS, EXTENDIDO DE SANGRE PERIFERICA *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902216,
+    "description": "LEUCOGRAMA [RECUENTO TOTAL Y DIFERENCIAL]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902220,
+    "description": "RECUENTO DE PLAQUETAS, MÉTODO AUTOMÁTICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902221,
+    "description": "RECUENTO DE PLAQUETAS, MÉTODO MANUAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903801,
+    "description": "ACIDO URICO< o:p>",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903802,
+    "description": "ACIDO URICO EN ORINA DE 24 H",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903809,
+    "description": "BILIRRUBINAS TOTAL Y DIRECTA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903815,
+    "description": "COLESTEROL DE ALTA DENSIDAD [HDL]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903816,
+    "description": "COLESTEROL DE BAJA DENSIDAD [LDL] ENZIMATICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903818,
+    "description": "COLESTEROL TOTAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903822,
+    "description": "CREATINA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903825,
+    "description": "CREATININA EN SUERO, ORINA U OTROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903826,
+    "description": "CUERPOS CETONICOS O CETONAS EN ORINA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903840,
+    "description": "GLUCOSA EN ORINA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903841,
+    "description": "GLUCOSA EN SUERO, LCR U OTRO FLUIDO DIFERENTE A ORINA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903842,
+    "description": "GLUCOSA PRE Y POST CARGA DE GLUCOSA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903843,
+    "description": "GLUCOSA PRE Y POST PRANDIAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903844,
+    "description": "GLUCOSA, CURVA DE TOLERANCIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903845,
+    "description": "GLUCOSA, TEST O’ SULLIVAN",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903856,
+    "description": "NITROGENO UREICO [BUN] *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903857,
+    "description": "NITROGENO UREICO [BUN] EN ORINA DE 24 H",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903868,
+    "description": "TRIGLICÉRIDOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 904508,
+    "description": "GONADOTROPINA CORIÓNICA, SUBUNIDAD BETA CUALITATIVA, [BHCG] PRUEBA DE EMBARAZO EN ORINA O SUERO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906001,
+    "description": "ANTIESTREPTOLISINA “O” CUANTITATIVA POR NEFELOMETRIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906002,
+    "description": "ANTIESTREPTOLISINA “O” CUANTITATIVA POR TITULACIÓN",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906039,
+    "description": "Treponema pallidum, ANTICUERPOS (FTA-ABS O TPHA-PRUEBA TRE-PONEMICA)",
+    "complexity": 1,
+    "clarification": "Prueba convencional o prueba rápida treponémica"
+  },
+  {
+    "id": 906218,
+    "description": "Hepatitis A, ANTICUERPOS Ig M [ANTI HVA-M] *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906219,
+    "description": "Hepatitis A, ANTICUERPOS TOTALES [ANTI HVA]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906220,
+    "description": "Hepatitis B, ANTICUERPOS CENTRAL Ig M [ANTI-CORE HBC-M]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906221,
+    "description": "Hepatitis B, ANTICUERPOS CENTRAL TOTALES [ANTI-CORE HBc] & *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906222,
+    "description": "Hepatitis B, ANTICUERPOS E [ANTI-HBe]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906223,
+    "description": "Hepatitis B, ANTICUERPOS S [ANTI-HBs] *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906249,
+    "description": "VIH 1 Y 2, ANTICUERPOS & *",
+    "complexity": 1,
+    "clarification": "Pruebas elisa convencionales o pruebas rápidas"
+  },
+  {
+    "id": 906915,
+    "description": "SEROLOGÍA [PRUEBA NO TREPONEMICA] RPR &",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906916,
+    "description": "SEROLOGÍA [PRUEBA NO TREPOMENICA] VDRL EN SUERO O LCR & *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 907002,
+    "description": "COPROLÓGICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 907003,
+    "description": "COPROLÓGICO POR CONCENTRACIÓN",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 907005,
+    "description": "FROTIS RECTAL [IDENTIFICACIÓN DE TROFOZOITOS]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 907008,
+    "description": "SANGRE OCULTA EN MATERIA FECAL [GUAYACO O EQUIVALENTE]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 907009,
+    "description": "SANGRE OCULTA [MATERIA FECAL] DETERMINACIÓN DE HEMOGLOBINA HUMANA ESPECÍFICA POR EIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 907106,
+    "description": "UROANALISIS CON SEDIMENTO Y DENSIDAD URINARIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 911015,
+    "description": "HEMOCLASIFICACION FACTOR Rh [FACTOR D] POR MICROTECNICA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 911016,
+    "description": "HEMOCLASIFICACION FACTOR Rh [FACTOR D] EN LAMINA O TUBO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "C00014",
+    "description": "PRUEBAS RAPIDAS PARA SÍFILIS, TPPA Y MHATP",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 735300,
+    "description": "ASISTENCIA DEL PARTO NORMAL CON EPISIORRAFIA Y/O PERINEO - RRAFIA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 735910,
+    "description": "ASISTENCIA DEL PARTO ESPONTANEO NORMAL (EXPULSIVO)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 898001,
+    "description": "ESTUDIO DE COLORACIÓN BASICA EN CITOLOGIA VAGINAL TUMORAL Y/O FUNCIONAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 892901,
+    "description": "TOMA NO QUIRURGICA DE MUESTRA O TEJIDO VAGINAL PARA ESTUDIO CITOLOGICO (CCV)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 992901,
+    "description": "INYECCION DE VITAMINA K",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993102,
+    "description": "VACUNACION CONTRA TUBERCULOSIS (BCG)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993103,
+    "description": "VACUNACIÓN CONTRA MENINGOCOCO (AC y/o BC)",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993104,
+    "description": "VACUNACION CONTRA Haemophilus influenza tipo b",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993105,
+    "description": "ADMINISTRACION DE TOXOIDE DIFTERICO",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993106,
+    "description": "VACUNACION  CONTRA STREPTOCOCO NEUMONIAE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993107,
+    "description": "ADMINISTRACION DE TOXOIDE DE TETANOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993120,
+    "description": "VACUNACION COMBINADA CONTRA TETANOS Y DIFTERIA (Td)",
+    "complexity": 1,
+    "clarification": "se refiere a la aplicación dentro del esquema PAI, duplicado con el cups"
+  },
+  {
+    "id": 993122,
+    "description": "VACUNACION COMBINADA CONTRA DIFTERIA, TETANOS Y TOS FERINA (DPT)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993501,
+    "description": "VACUNACION CONTRA POLIOMIELITIS (VOP O IVP)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993502,
+    "description": "VACUNACION CONTRA Hepatitis A",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993503,
+    "description": "VACUNACION CONTRA Hepatitis B",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993504,
+    "description": "VACUNACION CONTRA FIEBRE AMARILLA",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993505,
+    "description": "VACUNACION CONTRA RABIA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993506,
+    "description": "VACUNACION CONTRA SARAMPION",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993507,
+    "description": "VACUNACION CONTRA PAROTIDITIS",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993508,
+    "description": "VACUNACION CONTRA RUBEOLA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993509,
+    "description": "VACUNACION CONTRA VARICELA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993510,
+    "description": "VACUNACION CONTRA INFLUENZA",
+    "complexity": 1,
+    "clarification": "se refiere a la aplicación dentro del esquema PAI, nuevo con relación al mapipos."
+  },
+  {
+    "id": 993512,
+    "description": "VACUNACION  CONTRA ROTAVIRUS",
+    "complexity": 1,
+    "clarification": "corresponde a la aplicación"
+  },
+  {
+    "id": 993522,
+    "description": "VACUNACION COMBINADA CONTRA SARAMPION, PAROTIDITIS Y RUBEOLA (SRP) (TRIPLE VIRAL)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 994100,
+    "description": "ADMINISTRACION DE ANTITOXINA TETANICA SOD",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 994200,
+    "description": "ADMINISTRACION DE ANTITOXINA DE BOTULISMO SOD",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 994300,
+    "description": "ADMINISTRACION DE ANTITOXINA DIFTERICA SOD",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 995199,
+    "description": "OTRAS VACUNACIONES DEL PROGRAMA AMPLIADO DE INMUNIZACIONES NCOC",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997101,
+    "description": "APLICACIÓN DE SELLANTES DE AUTOCURADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997102,
+    "description": "APLICACIÓN DE SELLANTES DE FOTOCURADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997103,
+    "description": "TOPICACION DE FLUOR EN GEL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997104,
+    "description": "TOPICACION DE FLUOR EN SOLUCION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997105,
+    "description": "APLICACIÓN DE RESINA PREVENTIVA",
+    "complexity": 1,
+    "clarification": "Incluye la resina fluída."
+  },
+  {
+    "id": 997300,
+    "description": "DETARTRAJE SUPRAGINGIVAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997310,
+    "description": "CONTROL DE PLACA DENTAL NCOC",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A20001",
+    "description": "APOYO A LA VIGILANCIA DE INDICADORES DE PROTECCION ESPECIFICA Y DETECCCION TEMPRANA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A22001",
+    "description": "IDENTIFICACION Y CANALIZACION EFECTIVA DE LA POBLACION HACIA LA DETECCION TEMPRANA Y PROTECCION ESPECIFICA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "C00003",
+    "description": "APLICACIÓN INMUNOGLOBULINA ANTIRRABICA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 697100,
+    "description": "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO (DIU) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990101,
+    "description": "EDUCACION GRUPAL EN SALUD, POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990102,
+    "description": "EDUCACION GRUPAL EN SALUD, POR MEDICINA ESPECIALIZADA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990103,
+    "description": "EDUCACION GRUPAL EN SALUD, POR ODONTOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990104,
+    "description": "EDUCACION GRUPAL EN SALUD, POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990106,
+    "description": "EDUCACION GRUPAL EN SALUD, POR PSICOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990107,
+    "description": "EDUCACION GRUPAL EN SALUD, POR TRABAJO SOCIAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990111,
+    "description": "EDUCACION GRUPAL EN SALUD, POR AGENTE EDUCATIVO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990112,
+    "description": "EDUCACION GRUPAL EN SALUD, POR HIGIENE ORAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990201,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990202,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR MEDICINA ESPECIALIZADA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990203,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR ODONTOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990204,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990206,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR PSICOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990211,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR AGENTE EDUCATIVO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990212,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR HIGIENE ORAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10001",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION INFANTIL Y ADOLESCENTE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10002",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION DE HOMBRES Y MUJERES EN EDAD FERTIL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10003",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION DE MUJERES GESTANTES Y LACTANTES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10004",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION DE ADULTO MAYOR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10301",
+    "description": "INFORMACION, EDUCACION Y COMUNICACION (IEC) EN FOMENTO DE FACTORES PROTECTORES HACIA EL CONTROL DE ENFERMEDADES CRONICAS METABOLICAS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10302",
+    "description": "INFORMACION, EDUCACION Y COMUNICACION (IEC) EN FOMENTO DE FACTORES PROTECTORES HACIA EL CONTROL DE ENFERMEDADES CRONICAS CARDIOVASCULARES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "S01100",
+    "description": "CONSULTA EXTERNA DE COMPLEJIDAD BAJA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "S11101",
+    "description": "INTERNACION EN SERVICIO COMPLEJIDAD BAJA, HABITACION UNIPERSONAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "S11102",
+    "description": "INTERNACION EN SERVICIO COMPLEJIDAD BAJA, HABITACION BIPERSONAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "S11103",
+    "description": "INTERNACION EN SERVICIO COMPLEJIDAD BAJA, HABITACION TRES CAMAS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "S11104",
+    "description": "INTERNACION EN SERVICIO COMPLEJIDAD BAJA, HABITACION DE CUATRO CAMAS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "S20000",
+    "description": "SALA DE OBSERVACION (URGENCIAS) DE COMPLEJIDAD BAJA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "S31301",
+    "description": "TRASLADO TERRESTRE BASICO DE PACIENTES, PRIMARIO",
+    "complexity": 1,
+    "clarification": "En ambulancia"
+  },
+  {
+    "id": "S42100",
+    "description": "SERVICIO DE ATENCION FARMACEUTICA DE COMPLEJIDAD BAJA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 241101,
+    "description": "BIOPSIA INCISIONAL DE ENCÍA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 241103,
+    "description": "BIOPSIA ESCISIONAL DE ENCÍA Y RECUBRIMIENTO CON COLGAJO O INJERTO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 243201,
+    "description": "SUTURA DE LACERACION DE ENCÍA, MENOR DE TRES CENTIMETROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 274301,
+    "description": "RESECCION DE LESION BENIGNA DE LA MUCOSA ORAL, HASTA DE DOS CENTIMETROS DE DIÁMETRO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 274901,
+    "description": "REMOCION DE CUERPO EXTRAÑO EN TEJIDOS BLANDOS DE LA BOCA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 275100,
+    "description": "SUTURA DE LACERACION EN LABIOS SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 275101,
+    "description": "SUTURA O REPARACION DE LACERACIÒN (HERIDA) EN LABIOS HASTA DE CINCO CENTÍMETROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 275102,
+    "description": "SUTURA O REPARACION DE LACERACION (HERIDA) EN LABIOS DE MAS DE CINCO CENTÍMETROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 275200,
+    "description": "SUTURA DE LACERACION DE OTRA PARTE DE LA BOCA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 275201,
+    "description": "ESTOMATORRAFIA (SUTURA DE HERIDA EN MUCOSA ORAL) DE MENOS DE CINCO CENTIMETROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 275202,
+    "description": "ESTOMATORRAFIA (SUTURA DE HERIDA EN MUCOSA ORAL) DE MASDE CINCO CENTIMETROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 342300,
+    "description": "BIOPSIA DE PARED TORACICA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 389300,
+    "description": "CATETERISMO O CANALIZACION DE VENA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 540000,
+    "description": "DRENAJE DE COLECCION EN PARED ABDOMINAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 579400,
+    "description": "INSERCION DE CATETER URINARIO (VESICAL) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 579500,
+    "description": "REEMPLAZO DE CATETER URINARIO (VESICAL) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 613102,
+    "description": "FULGURACION DE LESION ESCROTAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 619202,
+    "description": "EXTRACCION DE CUERPO EXTRAÑO DEL ESCROTO POR INCISION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 642100,
+    "description": "FULGURACION O RESECCION DE LESION EN PENE SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 644930,
+    "description": "INYECCION EN PLACAS DE FIBROSIS DE PENE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 671202,
+    "description": "BIOPSIA DE CUELLO UTERINO CIRCUNFERENCIAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 673101,
+    "description": "ESCISION DE POLIPO EN CUELLO UTERINO (CERVIX)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 681602,
+    "description": "BIOPSIA DE ENDOMETRIO POR LAVADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 681603,
+    "description": "BIOPSIA DE ENDOMETRIO POR ASPIRACION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 712100,
+    "description": "ASPIRACION CON AGUJA DE LAS GLANDULAS DE BARTHOLIN (QUISTE) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 712200,
+    "description": "INCISION Y DRENAJE DE LA GLANDULA DE BARTHOLIN (QUISTE) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 717300,
+    "description": "DRENAJE DE COLECCION VULVOPERINEAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 751100,
+    "description": "AMNIOCENTESIS DIAGNOSTICA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 754101,
+    "description": "REMOCION MANUAL DE PLACENTA RETENIDA Y/O REVISION UTERINA, SIN ATENCION DEL PARTO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 758100,
+    "description": "TAPONAMIENTO OBSTETRICO DE UTERO O VAGINA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 858100,
+    "description": "SUTURA DE HERIDA DE LA MAMA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 860101,
+    "description": "BIOPSIA DE PIEL CON SACABOCADO Y SUTURA SIMPLE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 860102,
+    "description": "BIOPSIA INCISIONAL O ESCISIONAL DE PIEL, TEJIDO CELULAR SUBCUTANEO O MUCOSA (CON SUTURA)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 860103,
+    "description": "BIOPSIA ESCISIONAL DE UÑA (LECHO Y/O MATRIZ)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 861101,
+    "description": "DRENAJE DE COLECCION SUPERFICIAL DE PIEL Y/O TEJIDO CELULAR SUBCUTANEO POR INCISION O ASPIRACION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 861103,
+    "description": "DRENAJE DE HEMATOMA SUBUNGUEAL POR INCISION O ASPIRACION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 861201,
+    "description": "EXTRACCION DE CUERPO EXTRAÑO EN PIEL O TEJIDO CELULAR SUBCUTANEO DE AREA GENERAL POR INCISION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 861202,
+    "description": "EXTRACCION DE CUERPO EXTRAÑO EN PIEL O TEJIDO CELULAR SUBCUTANEO DE AREA ESPECIAL POR INCISION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 861203,
+    "description": "EXTRACCION DE ANTICONCEPTIVOS SUBDERMICOS POR INCISION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 861801,
+    "description": "INSERCION DE ANTICONCEPTIVOS SUBDERMICOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 862501,
+    "description": "DERMOABRASION (QUIMICA Y/O MECANICA) DE AREA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 862701,
+    "description": "ONICECTOMIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 862702,
+    "description": "MATRICECTOMIA PARCIAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 862703,
+    "description": "MATRICECTOMIA TOTAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 862900,
+    "description": "FISTULECTOMIA DE PIEL Y TEJIDO CELULAR SUBCUTÁNEO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 864101,
+    "description": "RESECCION DE TUMOR BENIGNO O MALIGNO DE PIEL Y/O TEJIDO CELULAR SUBCUTANEO AREA GENERAL HASTA TRES CENTIMETROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865101,
+    "description": "SUTURA DE HERIDA UNICA, EN AREA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865102,
+    "description": "SUTURA DE HERIDA MULTIPLE, EN AREA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865201,
+    "description": "SUTURA DE HERIDA UNICA DE CARA NCOC",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865202,
+    "description": "SUTURA DE HERIDA UNICA DE CARA SIN COMPROMISO DE LABIOS Y/O PARPADOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865203,
+    "description": "SUTURA DE HERIDA UNICA DE PLIEGUES DE FLEXION, GENITALES, MANOS Y PIES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865205,
+    "description": "SUTURA DE HERIDA MULTIPLE DE CARA SIN COMPROMISO DE LABIOS Y/O PARPADOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865206,
+    "description": "SUTURA DE HERIDA MULTIPLE DE PLIEGUES DE FLEXION, GENITALES, MANOS Y PIES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865207,
+    "description": "SUTURA DE HERIDA PARCIAL DE CUERO CABELLUDO (ESCALPE)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 865210,
+    "description": "SUTURA DE MATRIZ UNGUEAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 869400,
+    "description": "RETIRO DE SUTURA EN PIEL Y/O TEJIDO CE LULAR SUBCUTANEO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 869500,
+    "description": "CURACION DE LESION EN PIEL O TEJIDO CELULAR SUBCUTANEO SOD",
+    "complexity": 1,
+    "clarification": "verificar nivel de atención"
+  },
+  {
+    "id": 893812,
+    "description": "REGISTRO DE OXIMETRIA CUTANEA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 895100,
+    "description": "ELECTROCARDIOGRAMA DE RITMO O DE SUPERFICIE SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 898101,
+    "description": "ESTUDIO DE COLORACION BASICA EN BIOPSIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 933700,
+    "description": "ENTRENAMIENTO PRE, PERI Y POST PARTO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935000,
+    "description": "INMOVILIZACION, PRESION Y CUIDADO DE HERIDA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935100,
+    "description": "APLICACIÓN DE VENDAJE ENYESADO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935301,
+    "description": "APLICACION O CAMBIO DE YESO PARA INMOVILIZACION EN MIEMBRO SUPERIOR (EXCEPTO MANO)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935302,
+    "description": "APLICACION O CAMBIO DE YESO PARA INMOVILIZACION EN MANO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935303,
+    "description": "APLICACION O CAMBIO DE YESO O ARNES EN TORAX Y/O PELVIS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935304,
+    "description": "APLICACION O CAMBIO DE YESO PARA INMOVILIZACION EN MIEMBRO INFERIOR (MUSLO, PIERNA O TOBILLO)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935305,
+    "description": "APLICACION O CAMBIO DE YESO EN PIE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935306,
+    "description": "APLICACION O CAMBIO DE YESO, ESPICA, ARNES O ALMOHADILLA PARA INMOVILIZACION DE PELVIS (CADERA)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 935400,
+    "description": "APLICACION DE FERULA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 936800,
+    "description": "INMOVILIZACION O MANIPULACION ARTICULAR INESPECÍFICA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 939300,
+    "description": "METODOS DE RESUCITACION NO MECANICOS (RESPIRACION ARTIFICIAL, BOCA A BOCA, MANUAL) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 950100,
+    "description": "EVALUACION ORTOPTICA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 961400,
+    "description": "TAPONAMIENTO VAGINAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 961601,
+    "description": "INSERCION DE CATETER (SONDA) EN URETRA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 963100,
+    "description": "LAVADO GASTRICO PARA HIPOTERMIA O CONGELACION GASTRICA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 963300,
+    "description": "LAVADO GASTRICO DE LIMPIEZA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 963800,
+    "description": "EXTRACCION DIGITAL O MANUAL DE HECES IMPACTADAS SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 963900,
+    "description": "IRRIGACION O ENEMA TRANSANAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 965200,
+    "description": "LAVADO E IRRIGACION DE OIDOS SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 965301,
+    "description": "IRRIGACION O CURACION DE CONDUCTOS NASALES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 965901,
+    "description": "LAVADO, IRRIGACION Y CUIDADOS DE HERIDA EN AREA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 970100,
+    "description": "SUSTITUCION DE TUBO (SONDA) NASOGASTRICO O DE ESOFAGOSTOMIA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 970200,
+    "description": "SUSTITUCION DE TUBO (SONDA) DE GASTROSTOMIA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 971100,
+    "description": "SUSTITUCION DE ESCAYOLA O FERULA EN MIEMBRO SUPERIOR SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 971200,
+    "description": "SUSTITUCION DE ESCAYOLA O FERULA EN MIEMBRO INFERIOR SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 971400,
+    "description": "SUSTITUCION DE OTRO DISPOSITIVO PARA INMOVILIZACION MUSCULOESQUELETICA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 972100,
+    "description": "SUSTITUCION DE TAPON NASAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 972600,
+    "description": "SUSTITUCION DE OTRO TAPON (MECHA) O DRENAJE VAGINAL O VULVAR SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 973200,
+    "description": "EXTRACCION DE TAPON NASAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 973800,
+    "description": "RETIRO DE SUTURAS DE CABEZA Y CUELLO (RETIRO DE PUNTOS) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 974100,
+    "description": "EXTRACCION DE TUBO DE TORACOTOMIA O DE DRENAJE DE CAVIDAD PLEURAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 974300,
+    "description": "RETIRO DE SUTURAS DE TORAX (RETIRO DE PUNTOS) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 975100,
+    "description": "EXTRACCION DE TUBO DE GASTROSTOMIA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 976500,
+    "description": "EXTRACCION Y/O REEMPLAZO DE SONDA URETRAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 977100,
+    "description": "EXTRACCION DE DISPOSITIVO ANTICONCEPTIVO INTRAUTERINO (DIU) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 977200,
+    "description": "EXTRACCION DE TAPON INTRAUTERINO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 977500,
+    "description": "EXTRACCION DE TAPON [MECHA] VAGINAL O VULVAR SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 978300,
+    "description": "EXTRACCION DE SUTURAS DE PARED ABDOMINAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 978800,
+    "description": "EXTRACCION NO QUIRURGICA DE DISPOSITIVO DE INMOVILIZACION EXTERNO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 981100,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO DE CONDUCTO AUDITIVO EXTERNO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 981200,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO INTRALUMINAL DE LA NARIZ SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 981700,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO INTRALUMINAL DE LA VAGINA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 982200,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO NO INTRALUMINAL EN CUELLO Y/O CABEZA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 982300,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO NO INTRALUMINAL EN VULVA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 982400,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO NO INTRALUMINAL EN PENE O ESCROTO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 982600,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO EN MANO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 982700,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO EN BRAZO Y ANTEBRAZO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 982800,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO EN PIE SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 982900,
+    "description": "EXTRACCION SIN INCISION DE CUERPO EXTRAÑO EN MIEMBRO INFERIOR SALVO PIE SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 991100,
+    "description": "INYECCION DE GLOBULINA INMUNE RH SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 991400,
+    "description": "INYECCION DE GAMMA GLOBULINA O DE SUEROS INMUNES SOD",
+    "complexity": 1,
+    "clarification": "Corresponde a la aplicación"
+  },
+  {
+    "id": 991600,
+    "description": "INYECCION DE ANTÍDOTO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 991800,
+    "description": "INFUSION O ADMINISTRACION DE SOLUCIONES DE LIQUIDOS Y ELECTROLITOS SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 992100,
+    "description": "INYECCION O INFUSION DE ANTIBIOTICO SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 992101,
+    "description": "INFILTRACION, IRRIGACION O INSTILACION DE MEDICAMENTOS EN SUBESCARA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 992200,
+    "description": "INYECCION O INFUSION DE SUSTANCIA HORMONAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "C00004",
+    "description": "APLICACIÓN INMUNOGLOBULINA ANTITETANICA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "C00011",
+    "description": "INMUNOGLOBULINA ANTIRÁBICA",
+    "complexity": 1,
+    "clarification": "Corresponde a la aplicación"
+  },
+  {
+    "id": "C00012",
+    "description": "INMUNOGLOBULINA HUMANA ANTITETÀNICA",
+    "complexity": 1,
+    "clarification": "Corresponde a la aplicación"
+  },
+  {
+    "id": 697100,
+    "description": "INSERCION DE DISPOSITIVO INTRAUTERINO ANTICONCEPTIVO (DIU) SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 735300,
+    "description": "ASISTENCIA DEL PARTO NORMAL CON EPISIORRAFIA Y/O PERINEO- RRAFIA SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 735910,
+    "description": "ASISTENCIA DEL PARTO ESPONTANEO NORMAL (EXPULSIVO)",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 861801,
+    "description": "INSERCION DE ANTICONCEPTIVOS SUBDERMICOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 881431,
+    "description": "ULTRASONOGRAFÍA OBSTETRICA TRANSABDOMINAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890201,
+    "description": "CONSULTA DE PRIMERA VEZ POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890203,
+    "description": "CONSULTA DE PRIMERA VEZ POR ODONTOLOGIA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890205,
+    "description": "CONSULTA DE PRIMERA VEZ POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890301,
+    "description": "CONSULTA DE CONTROL O DE SEGUIMIENTO POR MEDICINA GE-NERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 890305,
+    "description": "CONSULTA DE CONTROL O DE SEGUIMIENTO POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 898001,
+    "description": "ESTUDIO DE COLORACIÓN BASICA EN CITOLOGIA VAGINAL TUMORAL Y/O FUNCIONAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902207,
+    "description": "HEMOGRAMA I [HEMOGLOBINA, HEMATOCRITO Y LEUCOGRAMA] MÉTODO MANUAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902212,
+    "description": "HEMOCLASIFICACION GRUPO ABO Y FACTOR Rh",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 902213,
+    "description": "HEMOGLOBINA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903815,
+    "description": "COLESTEROL DE ALTA DENSIDAD [HDL]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903816,
+    "description": "COLESTEROL DE BAJA DENSIDAD [LDL] ENZIMATICO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903818,
+    "description": "COLESTEROL TOTAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903825,
+    "description": "CREATININA EN SUERO, ORINA U OTROS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903841,
+    "description": "GLUCOSA EN SUERO, LCR U OTRO FLUIDO DIFERENTE A ORINA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 903868,
+    "description": "TRIGLICÉRIDOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906220,
+    "description": "Hepatitis B, ANTICUERPOS CENTRAL Ig M [ANTI-CORE HBC-M]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906221,
+    "description": "Hepatitis B, ANTICUERPOS CENTRAL TOTALES [ANTI-CORE HBc] & *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906222,
+    "description": "Hepatitis B, ANTICUERPOS E [ANTI-HBe]",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906223,
+    "description": "Hepatitis B, ANTICUERPOS S [ANTI-HBs] *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 906249,
+    "description": "VIH 1 Y 2, ANTICUERPOS & *",
+    "complexity": 1,
+    "clarification": "Pruebas elisa convencionales o pruebas rápidas"
+  },
+  {
+    "id": 906916,
+    "description": "SEROLOGÍA [PRUEBA NO TREPOMENICA] VDRL EN SUERO O LCR & *",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 907106,
+    "description": "UROANALISIS CON SEDIMENTO Y DENSIDAD URINARIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990101,
+    "description": "EDUCACION GRUPAL EN SALUD, POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990102,
+    "description": "EDUCACION GRUPAL EN SALUD, POR MEDICINA ESPECIALIZADA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990103,
+    "description": "EDUCACION GRUPAL EN SALUD, POR ODONTOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990104,
+    "description": "EDUCACION GRUPAL EN SALUD, POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990106,
+    "description": "EDUCACION GRUPAL EN SALUD, POR PSICOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990107,
+    "description": "EDUCACION GRUPAL EN SALUD, POR TRABAJO SOCIAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990111,
+    "description": "EDUCACION GRUPAL EN SALUD, POR AGENTE EDUCATIVO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990112,
+    "description": "EDUCACION GRUPAL EN SALUD, POR HIGIENE ORAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990201,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR MEDICINA GENERAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990202,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR MEDICINA ESPECIALIZADA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990203,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR ODONTOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990204,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR ENFERMERIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990206,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR PSICOLOGIA",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990211,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR AGENTE EDUCATIVO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 990212,
+    "description": "EDUCACION INDIVIDUAL EN SALUD, POR HIGIENE ORAL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 992901,
+    "description": "INYECCION DE VITAMINA K",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993102,
+    "description": "VACUNACION CONTRA TUBERCULOSIS (BCG)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993103,
+    "description": "VACUNACIÓN CONTRA MENINGOCOCO (AC y/o BC)",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993104,
+    "description": "VACUNACION CONTRA Haemophilus influenza tipo b",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993106,
+    "description": "VACUNACION  CONTRA STREPTOCOCO NEUMONIAE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993120,
+    "description": "VACUNACION COMBINADA CONTRA TETANOS Y DIFTERIA (Td)",
+    "complexity": 1,
+    "clarification": "se refiere a la aplicación dentro del esquema PAI, duplicado con el cups"
+  },
+  {
+    "id": 993122,
+    "description": "VACUNACION COMBINADA CONTRA DIFTERIA,TETANOS Y TOS FERINA (DPT)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993501,
+    "description": "VACUNACION CONTRA POLIOMIELITIS (VOP O IVP)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993502,
+    "description": "VACUNACION CONTRA Hepatitis A",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993503,
+    "description": "VACUNACION CONTRA Hepatitis B",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993504,
+    "description": "VACUNACION CONTRA FIEBRE AMARILLA",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993505,
+    "description": "VACUNACION CONTRA RABIA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993506,
+    "description": "VACUNACION CONTRA SARAMPION",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993507,
+    "description": "VACUNACION CONTRA PAROTIDITIS",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993508,
+    "description": "VACUNACION CONTRA RUBEOLA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993509,
+    "description": "VACUNACION CONTRA VARICELA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993510,
+    "description": "VACUNACION CONTRA INFLUENZA",
+    "complexity": 1,
+    "clarification": "se refiere a la aplicación dentro del esquema PAI, nuevo con relación al mapipos."
+  },
+  {
+    "id": 993512,
+    "description": "VACUNACION  CONTRA ROTAVIRUS",
+    "complexity": 1,
+    "clarification": "corresponde a la aplicación"
+  },
+  {
+    "id": 993522,
+    "description": "VACUNACION COMBINADA CONTRA SARAMPION, PAROTIDITIS Y RUBEOLA (SRP) (TRIPLE VIRAL)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 995199,
+    "description": "OTRAS VACUNACIONES DEL PROGRAMA AMPLIADO DE INMUNIZACIONES NCOC",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997101,
+    "description": "APLICACIÓN DE SELLANTES DE AUTOCURADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997102,
+    "description": "APLICACIÓN DE SELLANTES DE FOTOCURADO",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997103,
+    "description": "TOPICACION DE FLUOR EN GEL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997104,
+    "description": "TOPICACION DE FLUOR EN SOLUCION",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997300,
+    "description": "DETARTRAJE SUPRAGINGIVAL SOD",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 997310,
+    "description": "CONTROL DE PLACA DENTAL NCOC",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10001",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION INFANTIL Y ADOLESCENTE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10002",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION DE HOMBRES Y MUJERES EN EDAD FERTIL",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10003",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION DE MUJERES GESTANTES Y LACTANTES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10004",
+    "description": "INFORMACION, EDUCACION Y COMUNICACIÓN (IEC) EN POBLACION DE ADULTO MAYOR",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10301",
+    "description": "INFORMACION, EDUCACION Y COMUNICACION (IEC) EN FOMENTO DE FACTORES PROTECTORES HACIA EL CONTROL DE ENFERMEDADES CRONICAS METABOLICAS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "A10302",
+    "description": "INFORMACION, EDUCACION Y COMUNICACION (IEC) EN FOMENTO DE FACTORES PROTECTORES HACIA EL CONTROL DE ENFERMEDADES CRONICAS CARDIOVASCULARES",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": "C00017",
+    "description": "TOPICACION DE FLUOR EN BARNIZ",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993102,
+    "description": "VACUNACION CONTRA TUBERCULOSIS (BCG)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993103,
+    "description": "VACUNACIÓN CONTRA MENINGOCOCO (AC y/o BC)",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993104,
+    "description": "VACUNACION CONTRA Haemophilus influenza tipo b",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993105,
+    "description": "ADMINISTRACION DE TOXOIDE DIFTERICO",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993106,
+    "description": "VACUNACION  CONTRA STREPTOCOCO NEUMONIAE",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993107,
+    "description": "ADMINISTRACION DE TOXOIDE DE TETANOS",
+    "complexity": 1,
+    "clarification": "-"
+  },
+  {
+    "id": 993120,
+    "description": "VACUNACION COMBINADA CONTRA TETANOS Y DIFTERIA (Td)",
+    "complexity": 1,
+    "clarification": "se refiere a la aplicación dentro del esquema PAI, duplicado con el cups"
+  },
+  {
+    "id": 993122,
+    "description": "VACUNACION COMBINADA CONTRA DIFTERIA,TETANOS Y TOS FERINA (DPT)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993501,
+    "description": "VACUNACION CONTRA POLIOMIELITIS (VOP O IVP)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993502,
+    "description": "VACUNACION CONTRA Hepatitis A",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993503,
+    "description": "VACUNACION CONTRA Hepatitis B",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993504,
+    "description": "VACUNACION CONTRA FIEBRE AMARILLA",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 993505,
+    "description": "VACUNACION CONTRA RABIA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993506,
+    "description": "VACUNACION CONTRA SARAMPION",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993507,
+    "description": "VACUNACION CONTRA PAROTIDITIS",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993508,
+    "description": "VACUNACION CONTRA RUBEOLA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993509,
+    "description": "VACUNACION CONTRA VARICELA",
+    "complexity": 1,
+    "clarification": "No incluye el biológico"
+  },
+  {
+    "id": 993510,
+    "description": "VACUNACION CONTRA INFLUENZA",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI, nuevo con relación al mapipos."
+  },
+  {
+    "id": 993512,
+    "description": "VACUNACION  CONTRA ROTAVIRUS",
+    "complexity": 1,
+    "clarification": "corresponde a la aplicación-"
+  },
+  {
+    "id": 993522,
+    "description": "VACUNACION COMBINADA CONTRA SARAMPION, PAROTIDITIS Y RUBEOLA (SRP) (TRIPLE VIRAL)",
+    "complexity": 1,
+    "clarification": "Se refiere a la aplicación dentro del esquema PAI"
+  },
+  {
+    "id": 995199,
+    "description": "OTRAS VACUNACIONES DEL PROGRAMA AMPLIADO DE INMUNIZACIONES NCOC",
+    "complexity": 1,
+    "clarification": "-"
+  }
+]

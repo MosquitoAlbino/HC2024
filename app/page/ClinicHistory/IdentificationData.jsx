@@ -26,8 +26,61 @@ export default class IdentificationData extends Component {
 
   calcAge = (birthday) => {
     if (!birthday) return
-    const age = moment().diff(birthday, 'years', false)
-    return age
+
+    function singularize(string, num) {
+      return num == 1 ? string.slice(0, -1) : string
+    }
+
+    function getFormattedDateDiff(birthday, today) {
+      let b = moment(birthday)
+      let a = moment(today)
+      let intervals = ['years','months','days']
+      let output = []
+      let formattedDate = ''
+
+      intervals.forEach(function(interval) {
+          var diff = a.diff(b, interval)
+          b.add(diff, interval)
+          output.push(diff + ' ' + singularize(interval, diff))
+      })
+      formattedDate = output.join(', ')
+      formattedDate = formattedDate.replace('years', 'a')
+      formattedDate = formattedDate.replace('months', 'm')
+      formattedDate = formattedDate.replace('weeks', 's')
+      formattedDate = formattedDate.replace('days', 'd')
+
+      console.log('formattedDate', formattedDate)
+      return formattedDate
+    }
+
+    function getBirthday(year, month, day) {
+      var birthday
+      var tempBirthday = moment([year, month-1, day])
+
+      if (tempBirthday.isValid()) {
+        if (tempBirthday.diff(new Date(), 'days') < 0) {
+          birthday = tempBirthday
+        }
+      }
+
+      return birthday
+    }
+
+    function compute(year, month, day) {      
+      var today = moment(new Date())
+      var birthday = getBirthday(year, month, day)
+
+      if (!birthday) return
+      
+      return getFormattedDateDiff(birthday, today)
+    }
+
+    const year = birthday.year()
+    const month = birthday.month() + 1
+    const day = birthday.date()
+    const formattedDate = compute(year, month, day)
+
+    return formattedDate
   }
 
   render() {
