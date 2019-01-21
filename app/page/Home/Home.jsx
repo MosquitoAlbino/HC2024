@@ -6,7 +6,10 @@ import {
 const Home = () => (
   <div className="home">
     <Link to="/clinic-history">
-      Historia clinica
+      Historia clinica 1
+    </Link>
+    <Link to="/clinic-history">
+      Historia clinica 2
     </Link>
   </div>
 )
