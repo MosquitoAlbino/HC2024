@@ -33,7 +33,7 @@ export default class Root extends Component {
     return (
       <div className="clinic-history">
         <h1 className="clinic-history__title">
-          IMIR ALEPH IPS
+          ATENCIÓN LOCAL DE EMERGENCIAS PRE HOSPITALARIAS
         </h1>
         <div className="clinic-history__fieldset">
           <ClinicHistory
